@@ -1,11 +1,9 @@
-# 1. Two Sum
+# Two Sum
 
 ## Solution #1: Double For-Loops
 
-### The Solution Window (Select Language)
 
-<details open>
-  <summary><strong>C++</strong> — <code>1_Two_Sums/CPP/Solution01.cpp</code></summary>
+<details open><summary><strong>C++</strong>
 
 ```cpp
 class Solution {
@@ -21,3 +19,5 @@ public:
         return {};
     }
 };
+```
+</details>
