@@ -21,7 +21,7 @@ public:
     }
 };
 ```
-Author: Fincarson
-Time Complexity: O(N^2)
-Space Complexity: O(1)
+Author: Fincarson [GitHub](https://github.com/Fincarson) <br>
+Time Complexity: O(N^2) <br>
+Space Complexity: O(1) <br>
 </details>
