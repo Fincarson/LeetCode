@@ -1,9 +1,9 @@
 # Two Sum
+**Problem Link:** https://leetcode.com/problems/two-sum/ 
 
 ## Solution #1: Double For-Loops
-**Problem Link:** https://leetcode.com/problems/two-sum/  
 
-<details open>
+<details close>
   <summary><strong>C++</strong></summary>
   
 ```cpp
