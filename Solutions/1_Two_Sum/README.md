@@ -3,8 +3,9 @@
 ## Solution #1: Double For-Loops
 
 
-<details open><summary><strong>C++</strong>
-
+<details open>
+  <summary><strong>C++</strong>
+  
 ```cpp
 class Solution {
 public:
