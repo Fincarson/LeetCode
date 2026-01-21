@@ -4,7 +4,7 @@
 
 
 <details open>
-  <summary><strong>C++</strong>
+  <summary><strong>C++</strong></summary>
   
 ```cpp
 class Solution {
