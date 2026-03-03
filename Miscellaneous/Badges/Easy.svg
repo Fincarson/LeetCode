@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="20" role="img" aria-label="EASY">
+  <rect width="100%" height="100%" rx="10" fill="#16a34a"/>
+  <text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff">
+    EASY
+  </text>
+</svg>
