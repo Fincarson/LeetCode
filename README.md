@@ -51,7 +51,7 @@ This section contains my full collection of solved problems, gathered in one pla
 [p973]: https://leetcode.com/problems/k-closest-points-to-origin/
 
 [s1]: Solutions/1_Two_Sum
-[s2]: Solutions/4_Median_of_Two_Sorted_Arrays
+[s4]: Solutions/4_Median_of_Two_Sorted_Arrays
 [s215]: Solutions/215_Kth_Largest_Element_in_an_Array
 [s480]: Solutions/480_Sliding_Window_Median
 [s701]: Solutions/701_Insert_into_a_Binary_Search_Tree
