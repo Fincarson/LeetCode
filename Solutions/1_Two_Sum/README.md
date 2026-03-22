@@ -29,7 +29,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 ``` 
 Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
 Status           : ✅ Accepted (63/63) <br>
-Time Complexity  : O(N<sup>2</sup>) <br>
+Time Complexity  : <i>O</i>O(N<sup>2</sup>) <br>
 Space Complexity : <i>O</i>(1) <br>
 Date Solved      : Wednesday 25th February 2026
 <br>
@@ -70,7 +70,7 @@ public:
 ``` 
 Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
 Status           : ✅ Accepted (63/63) <br>
-Time Complexity  : O(N<sup>2</sup>) <br>
+Time Complexity  : <i>O</i>O(N<sup>2</sup>) <br>
 Space Complexity : <i>O</i>(1) <br>
 Date Solved      : Wednesday 25th February 2026
 <br>
@@ -113,7 +113,7 @@ class Solution(object):
 ``` 
 Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
 Status           : ✅ Accepted (63/63) <br>
-Time Complexity  : O(N<sup>2</sup>) <br>
+Time Complexity  : <i>O</i>O(N<sup>2</sup>) <br>
 Space Complexity : <i>O</i>(1) <br>
 Date Solved      : Wednesday 25th February 2026
 <br>
@@ -151,7 +151,7 @@ class Solution:
 ``` 
 Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
 Status           : ✅ Accepted (63/63) <br>
-Time Complexity  : O(N<sup>2</sup>) <br>
+Time Complexity  : <i>O</i>O(N<sup>2</sup>) <br>
 Space Complexity : <i>O</i>(1) <br>
 Date Solved      : Wednesday 25th February 2026
 <br>
@@ -192,7 +192,7 @@ class Solution {
 ``` 
 Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
 Status           : ✅ Accepted (63/63) <br>
-Time Complexity  : O(N<sup>2</sup>) <br>
+Time Complexity  : <i>O</i>O(N<sup>2</sup>) <br>
 Space Complexity : <i>O</i>(1) <br>
 Date Solved      : Tuesday 3rd March 2026
 <br>
@@ -215,7 +215,7 @@ Date Solved      : Tuesday 3rd March 2026
 
 
 
-
+<br>
 
 ## Solution 2: Hash Table
 <!-- C++ -->
@@ -238,7 +238,7 @@ public:
 ``` 
 Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
 Status           : ✅ Accepted (63/63) <br>
-Time Complexity  : O(N) <br>
+Time Complexity  : <i>O</i>O(N) <br>
 Space Complexity : <i>O</i>(1) <br>
 Date Solved      : Sunday, 22nd March 2026
 <br>
@@ -266,7 +266,7 @@ class Solution:
 ``` 
 Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
 Status           : ✅ Accepted (63/63) <br>
-Time Complexity  : O(N) <br>
+Time Complexity  : <i>O</i>O(N) <br>
 Space Complexity : <i>O</i>(1) <br>
 Date Solved      : Sunday, 22nd March 2026
 <br>
