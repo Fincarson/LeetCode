@@ -34,7 +34,7 @@ This section contains my full collection of solved problems, gathered in one pla
 <details close><summary><strong>LeetCode Problem Set</strong></summary>
 
 | Problems                                       | Difficulty                                                              | Solutions         |
-|---------------------------------------------=--|:-----------------------------------------------------------------------:|:-----------------:|
+|-----------------------------------------------:|:-----------------------------------------------------------------------:|:-----------------:|
 | [1. Two Sum][p1]                               | <img src="Miscellaneous/Badges/Easy.svg" height="20" align="absmiddle"> | [Solution][s1]    |
 | [4. Median of Two Sorted Arrays][p4]           | <img src="Miscellaneous/Badges/Hard.svg" height="20" align="absmiddle"> | [Solution][s4]    |
 | [26. Remove Duplicates from Sorted Array][p26] | <img src="Miscellaneous/Badges/Easy.svg" height="20" align="absmiddle"> | [Solution][s26]   |
