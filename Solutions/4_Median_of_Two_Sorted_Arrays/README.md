@@ -60,10 +60,10 @@ public:
 };
 ``` 
 Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
-Status           : ✅ Accepted (63/63) <br>
+Status           : ✅ Accepted (2098/2098) <br>
 Time Complexity  : <i>O</i>((M + N)log(m + n)) <br>
 Space Complexity : <i>O</i>(M + N) <br>
-Date Solved      : Wednesday 25th February 2026
+Date Solved      : Sunday, 22nd March 2026
 <br>
 
 🎯 Topics:
