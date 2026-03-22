@@ -212,3 +212,70 @@ Date Solved      : Tuesday 3rd March 2026
 ---
 
 </details>
+
+
+
+
+
+## Solution 2: Hash Table
+<!-- C++ -->
+<details close><summary><strong>C++</strong></summary>
+
+```cpp
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> hash;
+        for(int i = 0; i < nums.size(); i++){
+            int complement = target - nums[i];
+            if(hash.find(complement) != hash.end())
+                return {hash[complement], i};
+            hash[nums[i]] = i;
+        }
+        return {};
+    }
+};
+``` 
+Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
+Status           : ✅ Accepted (63/63) <br>
+Time Complexity  : O(N) <br>
+Space Complexity : <i>O</i>(1) <br>
+Date Solved      : Sunday, 22nd March 2026
+<br>
+
+🎯 Topics:
+- Hash-Table
+<br>
+
+---
+
+</details>
+
+<!-- Python3 -->
+<details close><summary><strong>Python3</strong></summary>
+
+```py3
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hash = {}
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            if complement in hash: return [hash[complement], i]
+            hash[nums[i]] = i
+        return []
+``` 
+Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
+Status           : ✅ Accepted (63/63) <br>
+Time Complexity  : O(N) <br>
+Space Complexity : <i>O</i>(1) <br>
+Date Solved      : Sunday, 22nd March 2026
+<br>
+
+🎯 Topics:
+- Python Dictionary
+- Hash-Table
+<br>
+
+---
+
+</details>
