@@ -44,7 +44,7 @@ This section contains my full collection of solved problems, gathered in one pla
 </details>
 
 [p1]: https://leetcode.com/problems/two-sum/
-[p2]: https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=problem-list-v2&envId=array
+[p4]: https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=problem-list-v2&envId=array
 [p215]: https://leetcode.com/problems/kth-largest-element-in-an-array/
 [p480]: https://leetcode.com/problems/sliding-window-median/
 [p701]: https://leetcode.com/problems/insert-into-a-binary-search-tree/
