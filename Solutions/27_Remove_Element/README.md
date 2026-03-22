@@ -1,5 +1,5 @@
-# Problem 26 - Remove Duplicates from Sorted Array
-**Problem Link:** [LeetCode Problem 26 - Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&envId=array) <br>
+# Problem 27 - Remove Element
+**Problem Link:** [LeetCode Problem 27 - Remove Element](https://leetcode.com/problems/remove-element/description/?envType=problem-list-v2&envId=array) <br>
 <br>
 
 ## Solution:
@@ -8,21 +8,24 @@
 <details close><summary><strong>C</strong></summary>
 
 ```c
-int removeDuplicates(int* nums, int numsSize) {
-    if(numsSize == 0) return 0;
+class Solution {
+public:
+    int removeElement(vector<int>& nums, int val) {
+        if(nums.size() == 0) return 0;
 
-    int result = 0, j = 0;
-    for(int i = 1; i < numsSize; ++i){
-        if(nums[i] != nums[j]){
-            nums[++j] = nums[i];
-            ++result;
+        int result = 0, j = 0;
+        for(int i = 0; i < nums.size(); i++){
+            if(nums[i] != val){
+                nums[j++] = nums[i];
+                ++result;
+            }
         }
+        return result;
     }
-    return result + 1;
-}
+};
 ``` 
 Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
-Status           : ✅ Accepted (362/362) <br>
+Status           : ✅ Accepted (116/116) <br>
 Time Complexity  : <i>O</i>(n) <br>
 Space Complexity : <i>O</i>(1) <br>
 Date Solved      : Monday, 23rd March 2026
@@ -42,25 +45,25 @@ Date Solved      : Monday, 23rd March 2026
 ```cpp
 class Solution {
 public:
-    int removeDuplicates(vector<int>& nums) {
-        if(nums.size() <= 0) return 0;
+    int removeElement(vector<int>& nums, int val) {
+        if(nums.size() == 0) return 0;
 
-        int n = nums.size();
-        int i = 0;
-        for(int j = 1; j < n; j++){
-            if(nums[j] != nums[i]){
-                nums[++i] = nums[j];
+        int result = 0, j = 0;
+        for(int i = 0; i < nums.size(); i++){
+            if(nums[i] != val){
+                nums[j++] = nums[i];
+                ++result;
             }
         }
-        return i+1;
+        return result;
     }
 };
 ``` 
 Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
-Status           : ✅ Accepted (362/362) <br>
+Status           : ✅ Accepted (116/116) <br>
 Time Complexity  : <i>O</i>(n) <br>
 Space Complexity : <i>O</i>(1) <br>
-Date Solved      : Sunday, 22nd March 2026
+Date Solved      : Monday, 23rd March 2026
 <br>
 
 🎯 Topics:
@@ -76,19 +79,19 @@ Date Solved      : Sunday, 22nd March 2026
 
 ```py
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+    def removeElement(self, nums: List[int], val: int) -> int:
         if(len(nums) == 0): return 0
 
         result = 0
         j = 0
 
-        for i in range(1, len(nums)):
-            if(nums[j] != nums[i]):
-                nums[j+1] = nums[i]
+        for i in range(len(nums)):
+            if(nums[i] != val):
+                nums[j] = nums[i]
                 j += 1
                 result += 1
-        
-        return result + 1
+
+        return result
 ``` 
 Author           : Fincarson [(GitHub)](https://github.com/Fincarson) <br>
 Status           : ✅ Accepted (362/362) <br>

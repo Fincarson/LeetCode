@@ -38,6 +38,7 @@ This section contains my full collection of solved problems, gathered in one pla
 | [1. Two Sum][p1]                               | <img src="Miscellaneous/Badges/Easy.svg" height="20" align="absmiddle"> | [Solution][s1]    |
 | [4. Median of Two Sorted Arrays][p4]           | <img src="Miscellaneous/Badges/Hard.svg" height="20" align="absmiddle"> | [Solution][s4]    |
 | [26. Remove Duplicates from Sorted Array][p26] | <img src="Miscellaneous/Badges/Easy.svg" height="20" align="absmiddle"> | [Solution][s26]   |
+| [27. Remove Element][p27]                      | <img src="Miscellaneous/Badges/Easy.svg" height="20" align="absmiddle"> | [Solution][s27]   |
 | [215. Kth Largest Element in an Array][p215]   | <img src="Miscellaneous/Badges/Med.svg" height="20" align="absmiddle">  | [Solution][s215]  |
 | [480. Sliding Window Median][p480]             | <img src="Miscellaneous/Badges/Hard.svg" height="20" align="absmiddle"> | [Solution][s480]  |
 | [701. Insert into a Binary Search Tree][p701]  | <img src="Miscellaneous/Badges/Med.svg" height="20" align="absmiddle">  | [Solution][s701]  |
@@ -47,6 +48,7 @@ This section contains my full collection of solved problems, gathered in one pla
 [p1]: https://leetcode.com/problems/two-sum/
 [p4]: https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=problem-list-v2&envId=array/
 [p26]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=array/
+[p27]: https://leetcode.com/problems/remove-element/description/?envType=problem-list-v2&envId=array
 [p215]: https://leetcode.com/problems/kth-largest-element-in-an-array/
 [p480]: https://leetcode.com/problems/sliding-window-median/
 [p701]: https://leetcode.com/problems/insert-into-a-binary-search-tree/
@@ -55,6 +57,7 @@ This section contains my full collection of solved problems, gathered in one pla
 [s1]: Solutions/1_Two_Sum
 [s4]: Solutions/4_Median_of_Two_Sorted_Arrays
 [s26]: Solutions/26_Remove_Duplicates_from_Sorted_Array
+[s27]: Solutions/27_Remove_Element
 [s215]: Solutions/215_Kth_Largest_Element_in_an_Array
 [s480]: Solutions/480_Sliding_Window_Median
 [s701]: Solutions/701_Insert_into_a_Binary_Search_Tree
