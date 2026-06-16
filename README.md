@@ -54,11 +54,11 @@ This section contains my full collection of solved problems, gathered in one pla
 [p701]: https://leetcode.com/problems/insert-into-a-binary-search-tree/
 [p973]: https://leetcode.com/problems/k-closest-points-to-origin/
 
-[s1]: Solutions/1_Two_Sum
-[s4]: Solutions/4_Median_of_Two_Sorted_Arrays
-[s26]: Solutions/26_Remove_Duplicates_from_Sorted_Array
-[s27]: Solutions/27_Remove_Element
-[s215]: Solutions/215_Kth_Largest_Element_in_an_Array
-[s480]: Solutions/480_Sliding_Window_Median
-[s701]: Solutions/701_Insert_into_a_Binary_Search_Tree
-[s973]: Solutions/973_K_Closest_Points_to_Origin
+[s1]: Solutions/0001_Two_Sum
+[s4]: Solutions/0004_Median_of_Two_Sorted_Arrays
+[s26]: Solutions/0026_Remove_Duplicates_from_Sorted_Array
+[s27]: Solutions/0027_Remove_Element
+[s215]: Solutions/0215_Kth_Largest_Element_in_an_Array
+[s480]: Solutions/0480_Sliding_Window_Median
+[s701]: Solutions/0701_Insert_into_a_Binary_Search_Tree
+[s973]: Solutions/0973_K_Closest_Points_to_Origin
