@@ -1,0 +1,18 @@
+struct ListNode* rotateRight(struct ListNode* head, int k) {
+    // base cases
+    if (head == NULL) return NULL;
+    if (head->next == NULL) return head;
+    // close the linked list into the ring
+    struct ListNode* old_tail = head;
+    int n;
+    for (n = 1; old_tail->next != NULL; n++) old_tail = old_tail->next;
+    old_tail->next = head;
+    // find new tail : (n - k % n - 1)th node
+    // and new head : (n - k % n)th node
+    struct ListNode* new_tail = head;
+    for (int i = 0; i < n - k % n - 1; i++) new_tail = new_tail->next;
+    struct ListNode* new_head = new_tail->next;
+    // break the ring
+    new_tail->next = NULL;
+    return new_head;
+}

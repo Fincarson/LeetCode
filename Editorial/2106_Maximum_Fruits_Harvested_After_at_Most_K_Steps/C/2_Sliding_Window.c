@@ -1,0 +1,35 @@
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+
+int step(int** fruits, int left, int right, int startPos) {
+    if (fruits[right][0] <= startPos) {
+        return startPos - fruits[left][0];
+    } else if (fruits[left][0] >= startPos) {
+        return fruits[right][0] - startPos;
+    } else {
+        return MIN(abs(startPos - fruits[right][0]),
+                   abs(startPos - fruits[left][0])) +
+               fruits[right][0] - fruits[left][0];
+    }
+}
+
+int maxTotalFruits(int** fruits, int fruitsSize, int* fruitsColSize,
+                   int startPos, int k) {
+    int left = 0;
+    int right = 0;
+    int sum = 0;
+    int ans = 0;
+
+    /* fix the right boundary of the window */
+    while (right < fruitsSize) {
+        sum += fruits[right][1];
+        /* move left boundary */
+        while (left <= right && step(fruits, left, right, startPos) > k) {
+            sum -= fruits[left][1];
+            left++;
+        }
+        ans = MAX(ans, sum);
+        right++;
+    }
+    return ans;
+}

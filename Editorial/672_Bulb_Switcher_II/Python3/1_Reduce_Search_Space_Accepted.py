@@ -1,0 +1,16 @@
+class Solution:
+    def flipLights(self, n: int, presses: int) -> int:
+        seen = set()
+        for cand in itertools.product((0, 1), repeat = 4):
+            if sum(cand) % 2 == presses % 2 and sum(cand) <= presses:
+                A = []
+                for i in range(min(n, 3)):
+                    light = 1
+                    light ^= cand[0]
+                    light ^= cand[1] and i % 2
+                    light ^= cand[2] and i % 2 == 0
+                    light ^= cand[3] and i % 3 == 0
+                    A.append(light)
+                seen.add(tuple(A))
+
+        return len(seen)

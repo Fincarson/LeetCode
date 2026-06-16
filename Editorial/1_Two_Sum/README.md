@@ -101,31 +101,25 @@ A hash table can store values you have already seen, letting you check whether t
 
 For every number `nums[i]`, the number needed to complete the pair is `target - nums[i]`.
 
-The whole problem is about how quickly we can answer this question:
-
-> Have we seen the complement, and what was its index?
-
-There are three useful ways to think about it:
+The official editorial presents three approaches: trying every pair, using a hash table in two passes, and using a hash table in one pass.
 
 | Approach | Time | Space | Idea |
 |---|:---:|:---:|---|
-| Brute Force | `O(n^2)` | `O(1)` | Try every pair. |
-| Two-Pass Hash Table | `O(n)` | `O(n)` | Store all values first, then search for complements. |
-| One-Pass Hash Table | `O(n)` | `O(n)` | Search for the complement while building the table. |
+| Brute Force | `O(n^2)` | `O(1)` | Try every pair until the complement is found. |
+| Two-pass Hash Table | `O(n)` | `O(n)` | Store all values first, then search for complements. |
+| One-pass Hash Table | `O(n)` | `O(n)` | Check for the complement while building the table. |
 
 ## Approach 1: Brute Force
 
 ### Intuition
 
-The direct way is to compare each index with every index after it. If `nums[i] + nums[j] == target`, those two indices form the answer.
-
-This is the easiest version to reason about, but it repeats a lot of work because every lookup is done by scanning the array again.
+Compare each number with every later number. This directly checks the answer condition but repeats a lot of scanning.
 
 ### Algorithm
 
-1. Loop through each index `i`.
+1. Loop through every index `i`.
 2. For each `i`, loop through every later index `j`.
-3. If the two numbers add up to `target`, return `[i, j]`.
+3. Return `[i, j]` when `nums[j] == target - nums[i]`.
 
 ### Complexity
 
@@ -141,7 +135,7 @@ This is the easiest version to reason about, but it repeats a lot of work becaus
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     for (int i = 0; i < numsSize; i++) {
         for (int j = i + 1; j < numsSize; j++) {
-            if (nums[i] + nums[j] == target) {
+            if (nums[j] == target - nums[i]) {
                 int* result = malloc(sizeof(int) * 2);
                 result[0] = i;
                 result[1] = j;
@@ -150,9 +144,9 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
             }
         }
     }
-
+    // Return an empty array if no solution is found
     *returnSize = 0;
-    return malloc(0);
+    return malloc(sizeof(int) * 0);
 }
 ```
 
@@ -164,15 +158,15 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 ```cpp
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> twoSum(vector<int> &nums, int target) {
         for (int i = 0; i < nums.size(); i++) {
             for (int j = i + 1; j < nums.size(); j++) {
-                if (nums[i] + nums[j] == target) {
+                if (nums[j] == target - nums[i]) {
                     return {i, j};
                 }
             }
         }
-
+        // Return an empty vector if no solution is found
         return {};
     }
 };
@@ -188,12 +182,12 @@ public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         for (int i = 0; i < nums.Length; i++) {
             for (int j = i + 1; j < nums.Length; j++) {
-                if (nums[i] + nums[j] == target) {
+                if (nums[j] == target - nums[i]) {
                     return new int[] { i, j };
                 }
             }
         }
-
+        // Return an empty array if no solution is found
         return new int[] {};
     }
 }
@@ -208,12 +202,12 @@ public class Solution {
 func twoSum(nums []int, target int) []int {
     for i := 0; i < len(nums); i++ {
         for j := i + 1; j < len(nums); j++ {
-            if nums[i]+nums[j] == target {
+            if nums[j] == target-nums[i] {
                 return []int{i, j}
             }
         }
     }
-
+    // Return an empty slice if no solution is found
     return []int{}
 }
 ```
@@ -228,12 +222,12 @@ class Solution {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == target) {
+                if (nums[j] == target - nums[i]) {
                     return new int[] { i, j };
                 }
             }
         }
-
+        // If no valid pair is found, return an empty array instead of null
         return new int[] {};
     }
 }
@@ -245,15 +239,15 @@ class Solution {
 <summary><strong>JavaScript</strong></summary>
 
 ```javascript
-var twoSum = function(nums, target) {
+var twoSum = function (nums, target) {
     for (let i = 0; i < nums.length; i++) {
         for (let j = i + 1; j < nums.length; j++) {
-            if (nums[i] + nums[j] === target) {
+            if (nums[j] === target - nums[i]) {
                 return [i, j];
             }
         }
     }
-
+    // Return an empty array if no solution is found
     return [];
 };
 ```
@@ -268,9 +262,9 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)):
             for j in range(i + 1, len(nums)):
-                if nums[i] + nums[j] == target:
+                if nums[j] == target - nums[i]:
                     return [i, j]
-
+        # Return an empty list if no solution is found
         return []
 ```
 
@@ -283,32 +277,31 @@ class Solution:
 function twoSum(nums: number[], target: number): number[] {
     for (let i = 0; i < nums.length; i++) {
         for (let j = i + 1; j < nums.length; j++) {
-            if (nums[i] + nums[j] === target) {
+            if (nums[j] === target - nums[i]) {
                 return [i, j];
             }
         }
     }
-
+    // Return an empty array if no solution is found
     return [];
 }
 ```
 
 </details>
 
-## Approach 2: Two-Pass Hash Table
+<br>
+
+## Approach 2: Two-pass Hash Table
 
 ### Intuition
 
-Instead of searching the array every time, store each value with its index in a hash table.
-
-After the table is built, each complement lookup becomes fast. The only careful part is making sure the same element is not used twice.
+A hash table lets us trade extra memory for fast complement lookup.
 
 ### Algorithm
 
-1. Create a hash table from number value to index.
-2. Loop through `nums` again.
-3. For each index `i`, compute `complement = target - nums[i]`.
-4. If the complement exists in the table and its index is not `i`, return the two indices.
+1. Build a map from each number to its index.
+2. Scan the array again.
+3. For each number, look up `target - nums[i]` and make sure it is not the same index.
 
 ### Complexity
 
@@ -331,40 +324,28 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     for (int i = 0; i < numsSize; i++) {
         HASH_FIND_INT(hashTable, &nums[i], item);
         if (item) {
-            item->value = i;
-        } else {
-            item = malloc(sizeof(struct hashTable));
-            item->key = nums[i];
-            item->value = i;
-            HASH_ADD_INT(hashTable, key, item);
-        }
-    }
-
-    for (int i = 0; i < numsSize; i++) {
-        int complement = target - nums[i];
-        HASH_FIND_INT(hashTable, &complement, item);
-        if (item && item->value != i) {
             int* result = malloc(sizeof(int) * 2);
-            result[0] = i;
-            result[1] = item->value;
+            result[0] = item->value;
+            result[1] = i;
             *returnSize = 2;
-
             HASH_ITER(hh, hashTable, item, tmpItem) {
                 HASH_DEL(hashTable, item);
                 free(item);
             }
-
             return result;
         }
+        item = malloc(sizeof(struct hashTable));
+        item->key = target - nums[i];
+        item->value = i;
+        HASH_ADD_INT(hashTable, key, item);
     }
-
     HASH_ITER(hh, hashTable, item, tmpItem) {
         HASH_DEL(hashTable, item);
         free(item);
     }
-
     *returnSize = 0;
-    return malloc(0);
+    // If no valid pair is found, return an empty array
+    return malloc(sizeof(int) * 0);
 }
 ```
 
@@ -376,20 +357,18 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 ```cpp
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> twoSum(vector<int> &nums, int target) {
         unordered_map<int, int> hash;
-
         for (int i = 0; i < nums.size(); i++) {
             hash[nums[i]] = i;
         }
-
         for (int i = 0; i < nums.size(); i++) {
             int complement = target - nums[i];
             if (hash.find(complement) != hash.end() && hash[complement] != i) {
                 return {i, hash[complement]};
             }
         }
-
+        // If no valid pair is found, return an empty vector
         return {};
     }
 };
@@ -404,7 +383,6 @@ public:
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         Dictionary<int, int> map = new Dictionary<int, int>();
-
         for (int i = 0; i < nums.Length; i++) {
             map[nums[i]] = i;
         }
@@ -416,6 +394,7 @@ public class Solution {
             }
         }
 
+        // If no valid pair is found, return an empty array
         return new int[] {};
     }
 }
@@ -428,19 +407,17 @@ public class Solution {
 
 ```go
 func twoSum(nums []int, target int) []int {
-    seen := make(map[int]int)
-
+    m := make(map[int]int)
     for i, num := range nums {
-        seen[num] = i
+        m[num] = i
     }
-
     for i, num := range nums {
         complement := target - num
-        if j, ok := seen[complement]; ok && j != i {
+        if j, ok := m[complement]; ok && j != i {
             return []int{i, j}
         }
     }
-
+    // Return an empty slice if no solution is found
     return []int{}
 }
 ```
@@ -454,18 +431,16 @@ func twoSum(nums []int, target int) []int {
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
-
         for (int i = 0; i < nums.length; i++) {
             map.put(nums[i], i);
         }
-
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
             if (map.containsKey(complement) && map.get(complement) != i) {
                 return new int[] { i, map.get(complement) };
             }
         }
-
+        // In case there is no solution, return an empty array
         return new int[] {};
     }
 }
@@ -477,20 +452,18 @@ class Solution {
 <summary><strong>JavaScript</strong></summary>
 
 ```javascript
-var twoSum = function(nums, target) {
+var twoSum = function (nums, target) {
     const map = new Map();
-
     for (let i = 0; i < nums.length; i++) {
         map.set(nums[i], i);
     }
-
     for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i];
         if (map.has(complement) && map.get(complement) !== i) {
             return [i, map.get(complement)];
         }
     }
-
+    // If no valid pair is found, return an empty array
     return [];
 };
 ```
@@ -503,16 +476,14 @@ var twoSum = function(nums, target) {
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        seen = {}
-
-        for i, num in enumerate(nums):
-            seen[num] = i
-
-        for i, num in enumerate(nums):
-            complement = target - num
-            if complement in seen and seen[complement] != i:
-                return [i, seen[complement]]
-
+        hashmap = {}
+        for i in range(len(nums)):
+            hashmap[nums[i]] = i
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            if complement in hashmap and hashmap[complement] != i:
+                return [i, hashmap[complement]]
+        # If no valid pair is found, return an empty list
         return []
 ```
 
@@ -523,40 +494,37 @@ class Solution:
 
 ```typescript
 function twoSum(nums: number[], target: number): number[] {
-    const map = new Map<number, number>();
-
+    const map: Map<number, number> = new Map();
     for (let i = 0; i < nums.length; i++) {
         map.set(nums[i], i);
     }
-
     for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i];
-        const complementIndex = map.get(complement);
-        if (complementIndex !== undefined && complementIndex !== i) {
-            return [i, complementIndex];
+        if (map.has(complement) && map.get(complement) !== i) {
+            return [i, map.get(complement)];
         }
     }
-
+    // If no valid pair is found, return an empty array
     return [];
 }
 ```
 
 </details>
 
-## Approach 3: One-Pass Hash Table
+<br>
+
+## Approach 3: One-pass Hash Table
 
 ### Intuition
 
-The two-pass version builds the whole table before checking answers. We can do better in practice by checking the complement first, then storing the current number.
-
-At index `i`, the hash table contains only earlier numbers. If `target - nums[i]` is already there, we immediately know the earlier index and the current index.
+At each index, the table contains only earlier numbers. If the complement is already there, the answer is ready immediately.
 
 ### Algorithm
 
-1. Start with an empty hash table.
-2. For each index `i`, compute `complement = target - nums[i]`.
-3. If `complement` is already in the hash table, return its stored index and `i`.
-4. Otherwise, store `nums[i]` with index `i`.
+1. Start with an empty map.
+2. For each number, compute its complement.
+3. Return the stored complement index and current index if it exists.
+4. Otherwise store the current number and index.
 
 ### Complexity
 
@@ -574,44 +542,28 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
         int key;
         int value;
         UT_hash_handle hh;
-    } *hashTable = NULL, *item, *tmpItem;
+    } *hashTable = NULL, *item;
 
     for (int i = 0; i < numsSize; i++) {
         int complement = target - nums[i];
         HASH_FIND_INT(hashTable, &complement, item);
-
         if (item) {
             int* result = malloc(sizeof(int) * 2);
             result[0] = item->value;
             result[1] = i;
             *returnSize = 2;
-
-            HASH_ITER(hh, hashTable, item, tmpItem) {
-                HASH_DEL(hashTable, item);
-                free(item);
-            }
-
+            HASH_CLEAR(hh, hashTable);  // Free the hash table
             return result;
         }
-
-        HASH_FIND_INT(hashTable, &nums[i], item);
-        if (item) {
-            item->value = i;
-        } else {
-            item = malloc(sizeof(struct hashTable));
-            item->key = nums[i];
-            item->value = i;
-            HASH_ADD_INT(hashTable, key, item);
-        }
+        item = malloc(sizeof(struct hashTable));
+        item->key = nums[i];
+        item->value = i;
+        HASH_ADD_INT(hashTable, key, item);
     }
-
-    HASH_ITER(hh, hashTable, item, tmpItem) {
-        HASH_DEL(hashTable, item);
-        free(item);
-    }
-
     *returnSize = 0;
-    return malloc(0);
+    HASH_CLEAR(hh, hashTable);  // Free the hash table
+    // Return an empty array if no solution is found
+    return malloc(0);  // Allocate 0 bytes
 }
 ```
 
@@ -623,18 +575,16 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 ```cpp
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> seen;
-
-        for (int i = 0; i < nums.size(); i++) {
+    vector<int> twoSum(vector<int> &nums, int target) {
+        unordered_map<int, int> hash;
+        for (int i = 0; i < nums.size(); ++i) {
             int complement = target - nums[i];
-            if (seen.find(complement) != seen.end()) {
-                return {seen[complement], i};
+            if (hash.find(complement) != hash.end()) {
+                return {hash[complement], i};
             }
-
-            seen[nums[i]] = i;
+            hash[nums[i]] = i;
         }
-
+        // Return an empty vector if no solution is found
         return {};
     }
 };
@@ -648,17 +598,15 @@ public:
 ```csharp
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
-        Dictionary<int, int> seen = new Dictionary<int, int>();
-
+        Dictionary<int, int> map = new Dictionary<int, int>();
         for (int i = 0; i < nums.Length; i++) {
             int complement = target - nums[i];
-            if (seen.ContainsKey(complement)) {
-                return new int[] { seen[complement], i };
+            if (map.ContainsKey(complement)) {
+                return new int[] { map[complement], i };
             }
-
-            seen[nums[i]] = i;
+            map[nums[i]] = i;
         }
-
+        // Return an empty array if no solution is found
         return new int[] {};
     }
 }
@@ -671,17 +619,15 @@ public class Solution {
 
 ```go
 func twoSum(nums []int, target int) []int {
-    seen := make(map[int]int)
-
+    m := make(map[int]int)
     for i, num := range nums {
         complement := target - num
-        if j, ok := seen[complement]; ok {
+        if j, ok := m[complement]; ok {
             return []int{j, i}
         }
-
-        seen[num] = i
+        m[num] = i
     }
-
+    // Return an empty slice if no solution is found
     return []int{}
 }
 ```
@@ -694,17 +640,15 @@ func twoSum(nums []int, target int) []int {
 ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> seen = new HashMap<>();
-
+        Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
-            if (seen.containsKey(complement)) {
-                return new int[] { seen.get(complement), i };
+            if (map.containsKey(complement)) {
+                return new int[] { map.get(complement), i };
             }
-
-            seen.put(nums[i], i);
+            map.put(nums[i], i);
         }
-
+        // Return an empty array if no solution is found
         return new int[] {};
     }
 }
@@ -716,18 +660,16 @@ class Solution {
 <summary><strong>JavaScript</strong></summary>
 
 ```javascript
-var twoSum = function(nums, target) {
-    const seen = new Map();
-
+var twoSum = function (nums, target) {
+    const map = new Map();
     for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i];
-        if (seen.has(complement)) {
-            return [seen.get(complement), i];
+        if (map.has(complement)) {
+            return [map.get(complement), i];
         }
-
-        seen.set(nums[i], i);
+        map.set(nums[i], i);
     }
-
+    // Return an empty array if no solution is found
     return [];
 };
 ```
@@ -740,15 +682,13 @@ var twoSum = function(nums, target) {
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        seen = {}
-
-        for i, num in enumerate(nums):
-            complement = target - num
-            if complement in seen:
-                return [seen[complement], i]
-
-            seen[num] = i
-
+        hashmap = {}
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            if complement in hashmap:
+                return [i, hashmap[complement]]
+            hashmap[nums[i]] = i
+        # Return an empty list if no solution is found
         return []
 ```
 
@@ -759,18 +699,15 @@ class Solution:
 
 ```typescript
 function twoSum(nums: number[], target: number): number[] {
-    const seen = new Map<number, number>();
-
+    const map: Map<number, number> = new Map();
     for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i];
-        const complementIndex = seen.get(complement);
-        if (complementIndex !== undefined) {
-            return [complementIndex, i];
+        if (map.has(complement)) {
+            return [map.get(complement), i];
         }
-
-        seen.set(nums[i], i);
+        map.set(nums[i], i);
     }
-
+    // Return an empty array if no solution is found
     return [];
 }
 ```

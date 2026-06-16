@@ -1,0 +1,144 @@
+# 225. Implement Stack using Queues
+
+[![Easy](../../Miscellaneous/Badges/Easy.svg)](https://leetcode.com/problems/implement-stack-using-queues/)  
+`Stack` `Design` `Queue`
+
+**Problem Link:** [LeetCode 225 - Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+
+## Problem
+
+Implement a last-in-first-out (LIFO) stack using only two queues. The implemented stack should support all the functions of a normal stack (push, top, pop, and empty).
+
+Implement the MyStack class:
+
+- void push(int x) Pushes element x to the top of the stack.
+- int pop() Removes the element on the top of the stack and returns it.
+- int top() Returns the element on the top of the stack.
+- boolean empty() Returns true if the stack is empty, false otherwise.
+
+Notes:
+
+- You must use only standard operations of a queue, which means that only push to back, peek/pop from front, size and is empty operations are valid.
+- Depending on your language, the queue may not be supported natively. You may simulate a queue using a list or deque (double-ended queue) as long as you use only a queue's standard operations.
+
+### Example 1
+
+```text
+Input
+["MyStack", "push", "push", "top", "pop", "empty"]
+[[], [1], [2], [], [], []]
+Output
+[null, null, null, 2, 2, false]
+
+Explanation
+MyStack myStack = new MyStack();
+myStack.push(1);
+myStack.push(2);
+myStack.top(); // return 2
+myStack.pop(); // return 2
+myStack.empty(); // return False
+```
+
+## Constraints
+
+- 1 <= x <= 9
+- At most 100 calls will be made to push, pop, top, and empty.
+- All the calls to pop and top are valid.
+
+Follow-up: Can you implement the stack using only one queue?
+
+## Similar Problems
+
+| Problem | Difficulty |
+|---|:---:|
+| [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | ![Easy](../../Miscellaneous/Badges/Easy.svg) |
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+# Editorial - 225. Implement Stack using Queues
+
+## Overview
+
+This section follows the official LeetCode editorial approach list and uses the official code snippets for the available languages.
+
+| Approach | Languages |
+|---|---|
+| Approach #1 (Two Queues, push - $$O(1)$$, pop $$O(n)$$ ) | Java |
+| Approach #2 (Two Queues, push - $$O(n)$$, pop $$O(1)$$ ) | Java |
+| Approach #3 (One Queue, push - $$O(n)$$, pop $$O(1)$$ ) | Java |
+
+## Approach #1 (Two Queues, push - $$O(1)$$, pop $$O(n)$$ )
+
+### Implementation
+
+<details>
+<summary><strong>Java</strong></summary>
+
+```java
+private Queue<Integer> q1 = new LinkedList<>();
+private Queue<Integer> q2 = new LinkedList<>();
+private int top;
+
+// Push element x onto stack.
+public void push(int x) {
+    q1.add(x);
+    top = x;
+}
+```
+
+</details>
+
+<br>
+
+## Approach #2 (Two Queues, push - $$O(n)$$, pop $$O(1)$$ )
+
+### Implementation
+
+<details>
+<summary><strong>Java</strong></summary>
+
+```java
+public void push(int x) {
+    q2.add(x);
+    top = x;
+    while (!q1.isEmpty()) {                
+        q2.add(q1.remove());
+    }
+    Queue<Integer> temp = q1;
+    q1 = q2;
+    q2 = temp;
+}
+```
+
+</details>
+
+<br>
+
+## Approach #3 (One Queue, push - $$O(n)$$, pop $$O(1)$$ )
+
+### Implementation
+
+<details>
+<summary><strong>Java</strong></summary>
+
+```java
+private LinkedList<Integer> q1 = new LinkedList<>();
+
+// Push element x onto stack.
+public void push(int x) {
+    q1.add(x);
+    int sz = q1.size();
+    while (sz > 1) {
+        q1.add(q1.remove());
+        sz--;
+    }
+}
+```
+
+</details>

@@ -1,0 +1,117 @@
+# 458. Poor Pigs
+
+[![Hard](../../Miscellaneous/Badges/Hard.svg)](https://leetcode.com/problems/poor-pigs/)  
+`Math` `Dynamic Programming` `Combinatorics`
+
+**Problem Link:** [LeetCode 458 - Poor Pigs](https://leetcode.com/problems/poor-pigs/)
+
+## Problem
+
+There are buckets buckets of liquid, where exactly one of the buckets is poisonous. To figure out which one is poisonous, you feed some number of (poor) pigs the liquid to see whether they will die or not. Unfortunately, you only have minutesToTest minutes to determine which bucket is poisonous.
+
+You can feed the pigs according to these steps:
+
+Given buckets, minutesToDie, and minutesToTest, return the minimum number of pigs needed to figure out which bucket is poisonous within the allotted time.
+
+### Example 1
+
+```text
+Input: buckets = 4, minutesToDie = 15, minutesToTest = 15
+Output: 2
+Explanation: We can determine the poisonous bucket as follows:
+At time 0, feed the first pig buckets 1 and 2, and feed the second pig buckets 2 and 3.
+At time 15, there are 4 possible outcomes:
+- If only the first pig dies, then bucket 1 must be poisonous.
+- If only the second pig dies, then bucket 3 must be poisonous.
+- If both pigs die, then bucket 2 must be poisonous.
+- If neither pig dies, then bucket 4 must be poisonous.
+```
+
+### Example 2
+
+```text
+Input: buckets = 4, minutesToDie = 15, minutesToTest = 30
+Output: 2
+Explanation: We can determine the poisonous bucket as follows:
+At time 0, feed the first pig bucket 1, and feed the second pig bucket 2.
+At time 15, there are 2 possible outcomes:
+- If either pig dies, then the poisonous bucket is the one it was fed.
+- If neither pig dies, then feed the first pig bucket 3, and feed the second pig bucket 4.
+At time 30, one of the two pigs must die, and the poisonous bucket is the one it was fed.
+```
+
+## Constraints
+
+- 1 <= buckets <= 1000
+- 1 <= minutesToDie <= minutesToTest <= 100
+
+## Similar Problems
+
+| Problem | Difficulty |
+|---|:---:|
+| None listed |  |
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+# Editorial - 458. Poor Pigs
+
+## Overview
+
+This section follows the official LeetCode editorial approach list and uses the official code snippets for the available languages.
+
+| Approach | Languages |
+|---|---|
+| Pig as a [qubit](https://en.wikipedia.org/wiki/Qubit) | C++, Java, Python |
+
+## Approach 1: Pig as a [qubit](https://en.wikipedia.org/wiki/Qubit)
+
+### Implementation
+
+<details>
+<summary><strong>C++</strong></summary>
+
+```cpp
+class Solution {
+  public:
+  int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
+    int states = minutesToTest / minutesToDie + 1;
+    return ceil(log2(buckets) / log2(states));
+  }
+};
+```
+
+</details>
+
+<details>
+<summary><strong>Java</strong></summary>
+
+```java
+class Solution {
+  public int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
+    int states = minutesToTest / minutesToDie + 1;
+
+    // We use a small tolerance value 1e-10 in the floating-point calculation
+    return (int) Math.ceil(Math.log(buckets) / Math.log(states) - 1e-10);
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><strong>Python</strong></summary>
+
+```python
+class Solution:
+    def poorPigs(self, buckets: int, minutesToDie: int, minutesToTest: int) -> int:
+        states = minutesToTest // minutesToDie + 1
+        return math.ceil(math.log2(buckets) / math.log2(states))
+```
+
+</details>

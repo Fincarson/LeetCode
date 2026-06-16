@@ -1,0 +1,28 @@
+class Solution {
+public:
+    int smallestDivisor(vector<int>& nums, int threshold) {
+        int maxElement = *max_element(nums.begin(), nums.end());
+        
+        // Iterate on all divisors.
+        for (int divisor = 1; divisor <= maxElement; ++divisor) {
+            int sumOfDivisionResults = 0;
+            bool thresholdExceeded = true;
+            
+            // Divide all numbers of array and sum the result.
+            for (int& num : nums) {
+                sumOfDivisionResults += ceil((1.0 * num) / divisor);
+                if (sumOfDivisionResults > threshold) {
+                    thresholdExceeded = false;
+                    break;
+                }
+            }
+            
+            // If threshold was not exceeded then return current divisor.
+            if (thresholdExceeded) {
+                return divisor;
+            }
+        }
+        
+        return -1;
+    }
+};

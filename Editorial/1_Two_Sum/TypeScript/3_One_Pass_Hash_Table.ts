@@ -1,15 +1,12 @@
 function twoSum(nums: number[], target: number): number[] {
-    const seen = new Map<number, number>();
-
+    const map: Map<number, number> = new Map();
     for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i];
-        const complementIndex = seen.get(complement);
-        if (complementIndex !== undefined) {
-            return [complementIndex, i];
+        if (map.has(complement)) {
+            return [map.get(complement), i];
         }
-
-        seen.set(nums[i], i);
+        map.set(nums[i], i);
     }
-
+    // Return an empty array if no solution is found
     return [];
 }

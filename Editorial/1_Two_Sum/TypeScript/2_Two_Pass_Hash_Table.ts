@@ -1,17 +1,14 @@
 function twoSum(nums: number[], target: number): number[] {
-    const map = new Map<number, number>();
-
+    const map: Map<number, number> = new Map();
     for (let i = 0; i < nums.length; i++) {
         map.set(nums[i], i);
     }
-
     for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i];
-        const complementIndex = map.get(complement);
-        if (complementIndex !== undefined && complementIndex !== i) {
-            return [i, complementIndex];
+        if (map.has(complement) && map.get(complement) !== i) {
+            return [i, map.get(complement)];
         }
     }
-
+    // If no valid pair is found, return an empty array
     return [];
 }

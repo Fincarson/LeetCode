@@ -1,0 +1,27 @@
+struct ListNode *reverseBetween(struct ListNode *head, int m, int n) {
+    if (head == NULL) {
+        return NULL;
+    }
+    struct ListNode *cur = head, *prev = NULL;
+    while (m > 1) {
+        prev = cur;
+        cur = cur->next;
+        m--;
+        n--;
+    }
+    struct ListNode *con = prev, *tail = cur;
+    struct ListNode *third = NULL;
+    while (n > 0) {
+        third = cur->next;
+        cur->next = prev;
+        prev = cur;
+        cur = third;
+        n--;
+    }
+    if (con)
+        con->next = prev;
+    else
+        head = prev;
+    tail->next = cur;
+    return head;
+}
