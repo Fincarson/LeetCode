@@ -83,12 +83,15 @@ A dummy head node makes it easier to append result nodes without handling the fi
 | [Add Two Polynomials Represented as Linked Lists](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/) | ![Medium](../../Miscellaneous/Badges/Med.svg) |
 | [Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | ![Medium](../../Miscellaneous/Badges/Med.svg) |
 
+<br>
+<br>
+
 ---
 
-# Editorial - 2. Add Two Numbers
+<br>
+<br>
 
-**Problem:** [Problem section](#problem)  
-**Recommended Python submission:** [Python3/Solution01.py](Python3/Solution01.py)
+# Editorial - 2. Add Two Numbers
 
 ## Overview
 
@@ -1156,9 +1159,3 @@ function addTwoNumbers(
 ```
 
 </details>
-
-## Which One Should I Remember?
-
-Use the iterative dummy-head approach for interviews and submissions.
-
-It is short, avoids integer overflow from converting the whole list into a number, handles different list lengths naturally, and makes the final carry easy to process. The recursive version is elegant, and the in-place version is a good space optimization when mutation is acceptable, but the dummy-head version is the cleanest default.

@@ -87,12 +87,15 @@ A hash table can store values you have already seen, letting you check whether t
 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | ![Easy](../../Miscellaneous/Badges/Easy.svg) |
 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | ![Easy](../../Miscellaneous/Badges/Easy.svg) |
 
+<br>
+<br>
+
 ---
 
-# Editorial - 1. Two Sum
+<br>
+<br>
 
-**Problem:** [Problem section](#problem)  
-**Recommended Python submission:** [Python3/Solution01.py](Python3/Solution01.py)
+# Editorial - 1. Two Sum
 
 ## Overview
 
@@ -773,13 +776,3 @@ function twoSum(nums: number[], target: number): number[] {
 ```
 
 </details>
-
-## Which One Should I Remember?
-
-Use the one-pass hash table in interviews and submissions. It keeps the idea short:
-
-1. Check whether the needed complement was seen earlier.
-2. If yes, return the earlier index and current index.
-3. If no, store the current number for future checks.
-
-That pattern appears in many array/hash-map problems, so this problem is a good place to memorize it.
