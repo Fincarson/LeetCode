@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Ordered Set
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Hasse_diagram_of_powerset_of_3.svg" width="850" alt="Ordered Set">
+  </a>
+</p>
 
-*An ordered set maintains elements in sorted order while supporting lookup, insertion, deletion, and neighbor queries. It is useful when relative order matters dynamically.*
+An ordered set maintains elements in sorted order while supporting lookup, insertion, deletion, and neighbor queries. It is useful when relative order matters dynamically. <br>
+<br>
+This section collects LeetCode problems tagged with Ordered Set. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -43,3 +55,7 @@
 | [3510. Minimum Pair Removal to Sort Array II](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3510_Minimum_Pair_Removal_to_Sort_Array_II) | - |
 | [3607. Power Grid Maintenance](https://leetcode.com/problems/power-grid-maintenance/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3607_Power_Grid_Maintenance) | - |
 | [3666. Minimum Operations to Equalize Binary String](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3666_Minimum_Operations_to_Equalize_Binary_String) | - |
+
+
+<br><br>
+

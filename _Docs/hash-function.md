@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Hash Function
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Hash_table_4_1_1_0_0_1_0_LL.svg/960px-Hash_table_4_1_1_0_0_1_0_LL.svg.png" width="850" alt="Hash Function">
+  </a>
+</p>
 
-*Hash function problems rely on mapping data to compact comparable values. They often appear in rolling hashes, deduplication, string matching, and fast equality checks.*
+Hash function problems rely on mapping data to compact comparable values. They often appear in rolling hashes, deduplication, string matching, and fast equality checks. <br>
+<br>
+This section collects LeetCode problems tagged with Hash Function. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -21,3 +33,7 @@
 | [1948. Delete Duplicate Folders in System](https://leetcode.com/problems/delete-duplicate-folders-in-system/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1901-2000/1948_Delete_Duplicate_Folders_in_System) | - |
 | [2168. Unique Substrings With Equal Digit Frequency](https://leetcode.com/problems/unique-substrings-with-equal-digit-frequency/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2101-2200/2168_Unique_Substrings_With_Equal_Digit_Frequency) | - |
 | [3042. Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3001-3100/3042_Count_Prefix_and_Suffix_Pairs_I) | - |
+
+
+<br><br>
+

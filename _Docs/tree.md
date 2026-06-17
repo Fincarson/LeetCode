@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Tree
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/A_representation_of_an_equation_as_a_tree_data_structure.png" width="850" alt="Tree">
+  </a>
+</p>
 
-*A tree is a connected acyclic graph with hierarchical structure. Problems often focus on traversal, parent-child relationships, paths, subtrees, and recursive reasoning.*
+A tree is a connected acyclic graph with hierarchical structure. Problems often focus on traversal, parent-child relationships, paths, subtrees, and recursive reasoning. <br>
+<br>
+This section collects LeetCode problems tagged with Tree. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -182,3 +194,7 @@
 | [3558. Number of Ways to Assign Edge Weights I](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3558_Number_of_Ways_to_Assign_Edge_Weights_I) | - |
 | [3559. Number of Ways to Assign Edge Weights II](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3559_Number_of_Ways_to_Assign_Edge_Weights_II) | - |
 | [3562. Maximum Profit from Trading Stocks with Discounts](https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3562_Maximum_Profit_from_Trading_Stocks_with_Discounts) | - |
+
+
+<br><br>
+

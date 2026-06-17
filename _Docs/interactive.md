@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Interactive
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/HP_Sprout.jpg" width="850" alt="Interactive">
+  </a>
+</p>
 
-*Interactive problems involve learning information through queries rather than receiving all data at once. They require careful query strategy and strict attention to the allowed protocol.*
+Interactive problems involve learning information through queries rather than receiving all data at once. They require careful query strategy and strict attention to the allowed protocol. <br>
+<br>
+This section collects LeetCode problems tagged with Interactive. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -19,3 +31,7 @@
 | [1533. Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1501-1600/1533_Find_the_Index_of_the_Large_Integer) | - |
 | [1538. Guess the Majority in a Hidden Array](https://leetcode.com/problems/guess-the-majority-in-a-hidden-array/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1501-1600/1538_Guess_the_Majority_in_a_Hidden_Array) | - |
 | [2782. Number of Unique Categories](https://leetcode.com/problems/number-of-unique-categories/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2701-2800/2782_Number_of_Unique_Categories) | - |
+
+
+<br><br>
+

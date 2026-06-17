@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Segment Tree
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Segment_tree.svg/960px-Segment_tree.svg.png" width="850" alt="Segment Tree">
+  </a>
+</p>
 
-*A segment tree stores aggregate information over intervals and supports efficient range queries and updates. It is useful when both updates and range answers are needed.*
+A segment tree stores aggregate information over intervals and supports efficient range queries and updates. It is useful when both updates and range answers are needed. <br>
+<br>
+This section collects LeetCode problems tagged with Segment Tree. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -31,3 +43,7 @@
 | [3691. Maximum Total Subarray Value II](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3691_Maximum_Total_Subarray_Value_II) | - |
 | [3719. Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3719_Longest_Balanced_Subarray_I) | - |
 | [3721. Longest Balanced Subarray II](https://leetcode.com/problems/longest-balanced-subarray-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3721_Longest_Balanced_Subarray_II) | - |
+
+
+<br><br>
+

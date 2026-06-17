@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Prefix Sum
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hillis-Steele_Prefix_Sum.svg" width="850" alt="Prefix Sum">
+  </a>
+</p>
 
-*Prefix sums store cumulative totals so range sums can be answered quickly. They also help transform subarray and matrix problems into differences between accumulated values.*
+Prefix sums store cumulative totals so range sums can be answered quickly. They also help transform subarray and matrix problems into differences between accumulated values. <br>
+<br>
+This section collects LeetCode problems tagged with Prefix Sum. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -122,3 +134,7 @@
 | [3655. XOR After Range Multiplication Queries II](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3655_XOR_After_Range_Multiplication_Queries_II) | - |
 | [3719. Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3719_Longest_Balanced_Subarray_I) | - |
 | [3721. Longest Balanced Subarray II](https://leetcode.com/problems/longest-balanced-subarray-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3721_Longest_Balanced_Subarray_II) | - |
+
+
+<br><br>
+

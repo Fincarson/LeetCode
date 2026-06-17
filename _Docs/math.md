@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Math
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Woman_teaching_geometry.jpg/960px-Woman_teaching_geometry.jpg" width="850" alt="Math">
+  </a>
+</p>
 
-*Math problems depend on numeric properties, formulas, and algebraic observations. The implementation is often short once the right relationship is found.*
+Math problems depend on numeric properties, formulas, and algebraic observations. The implementation is often short once the right relationship is found. <br>
+<br>
+This section collects LeetCode problems tagged with Math. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -284,3 +296,7 @@
 | [3753. Total Waviness of Numbers in Range II](https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3753_Total_Waviness_of_Numbers_in_Range_II) | - |
 | [3761. Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3761_Minimum_Absolute_Distance_Between_Mirror_Pairs) | - |
 | [3783. Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3783_Mirror_Distance_of_an_Integer) | - |
+
+
+<br><br>
+

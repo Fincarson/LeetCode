@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Counting
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Children%27s_number_blocks_being_used_for_learning_to_count_-_51069936953.jpg/960px-Children%27s_number_blocks_being_used_for_learning_to_count_-_51069936953.jpg" width="850" alt="Counting">
+  </a>
+</p>
 
-*Counting problems track frequencies, occurrences, or how many ways something can happen. They often become simpler with maps, arrays, combinatorics, or careful accumulation.*
+Counting problems track frequencies, occurrences, or how many ways something can happen. They often become simpler with maps, arrays, combinatorics, or careful accumulation. <br>
+<br>
+This section collects LeetCode problems tagged with Counting. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -90,3 +102,7 @@
 | [3541. Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3541_Find_Most_Frequent_Vowel_and_Consonant) | - |
 | [3583. Count Special Triplets](https://leetcode.com/problems/count-special-triplets/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3583_Count_Special_Triplets) | - |
 | [3713. Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3713_Longest_Balanced_Substring_I) | - |
+
+
+<br><br>
+

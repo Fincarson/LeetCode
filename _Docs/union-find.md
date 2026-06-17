@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Union-Find
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dsu_disjoint_sets_final.svg" width="850" alt="Union-Find">
+  </a>
+</p>
 
-*Union-Find, or Disjoint Set Union, tracks connected components under merge operations. It is useful for connectivity, cycle detection, Kruskal-style MSTs, and grouping problems.*
+Union-Find, or Disjoint Set Union, tracks connected components under merge operations. It is useful for connectivity, cycle detection, Kruskal-style MSTs, and grouping problems. <br>
+<br>
+This section collects LeetCode problems tagged with Union-Find. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -76,3 +88,7 @@
 | [3600. Maximize Spanning Tree Stability with Upgrades](https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3600_Maximize_Spanning_Tree_Stability_with_Upgrades) | - |
 | [3607. Power Grid Maintenance](https://leetcode.com/problems/power-grid-maintenance/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3607_Power_Grid_Maintenance) | - |
 | [3666. Minimum Operations to Equalize Binary String](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3666_Minimum_Operations_to_Equalize_Binary_String) | - |
+
+
+<br><br>
+

@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Brainteaser
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Set_of_various_puzzles.jpg/960px-Set_of_various_puzzles.jpg" width="850" alt="Brainteaser">
+  </a>
+</p>
 
-*Brainteaser problems depend more on pattern recognition and invariants than on long implementations. The key is usually finding the hidden observation that collapses the problem.*
+Brainteaser problems depend more on pattern recognition and invariants than on long implementations. The key is usually finding the hidden observation that collapses the problem. <br>
+<br>
+This section collects LeetCode problems tagged with Brainteaser. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -16,3 +28,7 @@
 | [2749. Minimum Operations to Make the Integer Zero](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2701-2800/2749_Minimum_Operations_to_Make_the_Integer_Zero) | - |
 | [3227. Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3201-3300/3227_Vowels_Game_in_a_String) | - |
 | [3577. Count the Number of Computer Unlocking Permutations](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3577_Count_the_Number_of_Computer_Unlocking_Permutations) | - |
+
+
+<br><br>
+

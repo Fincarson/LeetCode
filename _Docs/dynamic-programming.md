@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Dynamic Programming
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Shortest_path_optimal_substructure.svg/960px-Shortest_path_optimal_substructure.svg.png" width="850" alt="Dynamic Programming">
+  </a>
+</p>
 
-*Dynamic programming solves problems with overlapping subproblems by storing intermediate results. It is most useful when the current decision depends on smaller states or previous choices.*
+Dynamic programming solves problems with overlapping subproblems by storing intermediate results. It is most useful when the current decision depends on smaller states or previous choices. <br>
+<br>
+This section collects LeetCode problems tagged with Dynamic Programming. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -297,3 +309,7 @@
 | [3742. Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3742_Maximum_Path_Score_in_a_Grid) | - |
 | [3751. Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3751_Total_Waviness_of_Numbers_in_Range_I) | - |
 | [3753. Total Waviness of Numbers in Range II](https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3753_Total_Waviness_of_Numbers_in_Range_II) | - |
+
+
+<br><br>
+

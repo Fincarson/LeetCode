@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Data Stream
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/960px-Data_Queue.svg.png" width="850" alt="Data Stream">
+  </a>
+</p>
 
-*Data stream problems process values as they arrive, often without storing the entire input. They usually require online updates, rolling state, heaps, queues, or ordered structures.*
+Data stream problems process values as they arrive, often without storing the entire input. They usually require online updates, rolling state, heaps, queues, or ordered structures. <br>
+<br>
+This section collects LeetCode problems tagged with Data Stream. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -21,3 +33,7 @@
 | [1429. First Unique Number](https://leetcode.com/problems/first-unique-number/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1401-1500/1429_First_Unique_Number) | - |
 | [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1401-1500/1472_Design_Browser_History) | - |
 | [2034. Stock Price Fluctuation](https://leetcode.com/problems/stock-price-fluctuation/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2001-2100/2034_Stock_Price_Fluctuation) | - |
+
+
+<br><br>
+

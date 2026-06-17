@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Matrix
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/MatrixLabelled.svg/960px-MatrixLabelled.svg.png" width="850" alt="Matrix">
+  </a>
+</p>
 
-*A matrix is a 2D grid of values indexed by row and column. Problems often involve traversal patterns, neighborhood checks, prefix sums, dynamic programming, or graph-like movement.*
+A matrix is a 2D grid of values indexed by row and column. Problems often involve traversal patterns, neighborhood checks, prefix sums, dynamic programming, or graph-like movement. <br>
+<br>
+This section collects LeetCode problems tagged with Matrix. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -176,3 +188,7 @@
 | [3643. Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3643_Flip_Square_Submatrix_Vertically) | - |
 | [3651. Minimum Cost Path with Teleportations](https://leetcode.com/problems/minimum-cost-path-with-teleportations/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3651_Minimum_Cost_Path_with_Teleportations) | - |
 | [3742. Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3742_Maximum_Path_Score_in_a_Grid) | - |
+
+
+<br><br>
+

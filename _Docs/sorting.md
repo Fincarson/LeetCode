@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Sorting
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Merge_sort_animation.gif" width="850" alt="Sorting">
+  </a>
+</p>
 
-*Sorting arranges data into a predictable order so comparisons, grouping, and greedy choices become easier. Many problems start by sorting to expose useful relationships.*
+Sorting arranges data into a predictable order so comparisons, grouping, and greedy choices become easier. Many problems start by sorting to expose useful relationships. <br>
+<br>
+This section collects LeetCode problems tagged with Sorting. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -272,3 +284,7 @@
 | [3634. Minimum Removals to Balance Array](https://leetcode.com/problems/minimum-removals-to-balance-array/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3634_Minimum_Removals_to_Balance_Array) | - |
 | [3635. Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3635_Earliest_Finish_Time_for_Land_and_Water_Rides_II) | - |
 | [3661. Maximum Walls Destroyed by Robots](https://leetcode.com/problems/maximum-walls-destroyed-by-robots/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3661_Maximum_Walls_Destroyed_by_Robots) | - |
+
+
+<br><br>
+

@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Hash Table
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/960px-Hash_table_3_1_1_0_1_0_0_SP.svg.png" width="850" alt="Hash Table">
+  </a>
+</p>
 
-*Hash tables map keys to values for fast lookup, insertion, and counting. They are often the simplest way to track frequencies, seen values, indices, or relationships.*
+Hash tables map keys to values for fast lookup, insertion, and counting. They are often the simplest way to track frequencies, seen values, indices, or relationships. <br>
+<br>
+This section collects LeetCode problems tagged with Hash Table. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -404,3 +416,7 @@
 | [3740. Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3740_Minimum_Distance_Between_Three_Equal_Elements_I) | - |
 | [3741. Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3741_Minimum_Distance_Between_Three_Equal_Elements_II) | - |
 | [3761. Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3761_Minimum_Absolute_Distance_Between_Mirror_Pairs) | - |
+
+
+<br><br>
+

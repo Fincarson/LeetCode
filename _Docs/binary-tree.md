@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Binary Tree
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Binary_tree_v2.svg/960px-Binary_tree_v2.svg.png" width="850" alt="Binary Tree">
+  </a>
+</p>
 
-*A binary tree is a tree where each node has at most two children. Problems often focus on traversal, recursion, depth, paths, and relationships between parent and child nodes.*
+A binary tree is a tree where each node has at most two children. Problems often focus on traversal, recursion, depth, paths, and relationships between parent and child nodes. <br>
+<br>
+This section collects LeetCode problems tagged with Binary Tree. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -150,3 +162,7 @@
 | [2471. Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2401-2500/2471_Minimum_Number_of_Operations_to_Sort_a_Binary_Tree_by_Level) | - |
 | [2583. Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2501-2600/2583_Kth_Largest_Sum_in_a_Binary_Tree) | - |
 | [2641. Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2601-2700/2641_Cousins_in_Binary_Tree_II) | - |
+
+
+<br><br>
+

@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Memoization
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Shortest_path_optimal_substructure.svg/960px-Shortest_path_optimal_substructure.svg.png" width="850" alt="Memoization">
+  </a>
+</p>
 
-*Memoization caches results from recursive calls so repeated states are solved only once. It is a top-down dynamic programming technique that keeps the recursive structure clear.*
+Memoization caches results from recursive calls so repeated states are solved only once. It is a top-down dynamic programming technique that keeps the recursive structure clear. <br>
+<br>
+This section collects LeetCode problems tagged with Memoization. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -28,3 +40,7 @@
 | [2311. Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2301-2400/2311_Longest_Binary_Subsequence_Less_Than_or_Equal_to_K) | - |
 | [2328. Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2301-2400/2328_Number_of_Increasing_Paths_in_a_Grid) | - |
 | [3459. Length of Longest V-Shaped Diagonal Segment](https://leetcode.com/problems/length-of-longest-v-shaped-diagonal-segment/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3401-3500/3459_Length_of_Longest_V_Shaped_Diagonal_Segment) | - |
+
+
+<br><br>
+

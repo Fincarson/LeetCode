@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Recursion
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Snowflake_Recursion.jpg" width="850" alt="Recursion">
+  </a>
+</p>
 
-*Recursion solves a problem by calling the same logic on smaller inputs. It is natural for trees, divide-and-conquer, backtracking, and problems with self-similar structure.*
+Recursion solves a problem by calling the same logic on smaller inputs. It is natural for trees, divide-and-conquer, backtracking, and problems with self-similar structure. <br>
+<br>
+This section collects LeetCode problems tagged with Recursion. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -46,3 +58,7 @@
 | [2487. Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2401-2500/2487_Remove_Nodes_From_Linked_List) | - |
 | [3304. Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3301-3400/3304_Find_the_K_th_Character_in_String_Game_I) | - |
 | [3307. Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3301-3400/3307_Find_the_K_th_Character_in_String_Game_II) | - |
+
+
+<br><br>
+

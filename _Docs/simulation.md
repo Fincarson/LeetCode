@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Simulation
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Typhoon_Mawar_2005_computer_simulation_thumbnail.gif" width="850" alt="Simulation">
+  </a>
+</p>
 
-*Simulation problems ask you to carefully model a process exactly as described. The main challenge is state management, ordering, and edge-case behavior.*
+Simulation problems ask you to carefully model a process exactly as described. The main challenge is state management, ordering, and edge-case behavior. <br>
+<br>
+This section collects LeetCode problems tagged with Simulation. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -112,3 +124,7 @@
 | [3614. Process String with Special Operations II](https://leetcode.com/problems/process-string-with-special-operations-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3614_Process_String_with_Special_Operations_II) | - |
 | [3653. XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3653_XOR_After_Range_Multiplication_Queries_I) | - |
 | [3838. Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3801-3900/3838_Weighted_Word_Mapping) | - |
+
+
+<br><br>
+

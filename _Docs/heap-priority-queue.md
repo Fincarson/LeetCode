@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Heap (Priority Queue)
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Max-Heap-new.svg/960px-Max-Heap-new.svg.png" width="850" alt="Heap (Priority Queue)">
+  </a>
+</p>
 
-*A heap, or priority queue, gives fast access to the smallest or largest active item. It is useful for scheduling, top-k queries, merging streams, and greedy selection.*
+A heap, or priority queue, gives fast access to the smallest or largest active item. It is useful for scheduling, top-k queries, merging streams, and greedy selection. <br>
+<br>
+This section collects LeetCode problems tagged with Heap (Priority Queue). Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -126,3 +138,7 @@
 | [3607. Power Grid Maintenance](https://leetcode.com/problems/power-grid-maintenance/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3607_Power_Grid_Maintenance) | - |
 | [3650. Minimum Cost Path with Edge Reversals](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3650_Minimum_Cost_Path_with_Edge_Reversals) | - |
 | [3691. Maximum Total Subarray Value II](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3691_Maximum_Total_Subarray_Value_II) | - |
+
+
+<br><br>
+

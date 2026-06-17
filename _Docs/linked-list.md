@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Linked List
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/CPT-LinkedLists-addingnode.svg" width="850" alt="Linked List">
+  </a>
+</p>
 
-*A linked list stores values in nodes connected by pointers rather than contiguous indexes. Problems usually involve pointer manipulation, reversal, merging, cycle detection, or node removal.*
+A linked list stores values in nodes connected by pointers rather than contiguous indexes. Problems usually involve pointer manipulation, reversal, merging, cycle detection, or node removal. <br>
+<br>
+This section collects LeetCode problems tagged with Linked List. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -76,3 +88,7 @@
 | [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3201-3300/3217_Delete_Nodes_From_Linked_List_Present_in_Array) | - |
 | [3507. Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3507_Minimum_Pair_Removal_to_Sort_Array_I) | - |
 | [3510. Minimum Pair Removal to Sort Array II](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3510_Minimum_Pair_Removal_to_Sort_Array_II) | - |
+
+
+<br><br>
+

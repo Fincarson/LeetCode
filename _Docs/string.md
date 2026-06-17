@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # String
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/String_example.png" width="850" alt="String">
+  </a>
+</p>
 
-*String problems work with sequences of characters. They often involve parsing, matching, counting, windows, hashing, tries, or dynamic programming over positions.*
+String problems work with sequences of characters. They often involve parsing, matching, counting, windows, hashing, tries, or dynamic programming over positions. <br>
+<br>
+This section collects LeetCode problems tagged with String. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -441,3 +453,7 @@
 | [3666. Minimum Operations to Equalize Binary String](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3666_Minimum_Operations_to_Equalize_Binary_String) | - |
 | [3713. Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3713_Longest_Balanced_Substring_I) | - |
 | [3838. Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3801-3900/3838_Weighted_Word_Mapping) | - |
+
+
+<br><br>
+

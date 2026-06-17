@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Stack
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Linked-list-based_Stack_Push_operation-en.gif" width="850" alt="Stack">
+  </a>
+</p>
 
-*A stack processes items in last-in, first-out order. It is useful for nested structures, parsing, backtracking, monotonic patterns, and undo-like behavior.*
+A stack processes items in last-in, first-out order. It is useful for nested structures, parsing, backtracking, monotonic patterns, and undo-like behavior. <br>
+<br>
+This section collects LeetCode problems tagged with Stack. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -117,3 +129,7 @@
 | [3170. Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3101-3200/3170_Lexicographically_Minimum_String_After_Removing_Stars) | - |
 | [3174. Clear Digits](https://leetcode.com/problems/clear-digits/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3101-3200/3174_Clear_Digits) | - |
 | [3542. Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3542_Minimum_Operations_to_Convert_All_Elements_to_Zero) | - |
+
+
+<br><br>
+

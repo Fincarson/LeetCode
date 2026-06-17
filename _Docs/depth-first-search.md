@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Depth-First Search
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Depth-first-tree.svg/960px-Depth-first-tree.svg.png" width="850" alt="Depth-First Search">
+  </a>
+</p>
 
-*Depth-First Search explores one path as deeply as possible before backtracking. It is common for trees, graphs, connected components, cycle checks, and exhaustive search.*
+Depth-First Search explores one path as deeply as possible before backtracking. It is common for trees, graphs, connected components, cycle checks, and exhaustive search. <br>
+<br>
+This section collects LeetCode problems tagged with Depth-First Search. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -239,3 +251,7 @@
 | [3559. Number of Ways to Assign Edge Weights II](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3559_Number_of_Ways_to_Assign_Edge_Weights_II) | - |
 | [3562. Maximum Profit from Trading Stocks with Discounts](https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3562_Maximum_Profit_from_Trading_Stocks_with_Discounts) | - |
 | [3607. Power Grid Maintenance](https://leetcode.com/problems/power-grid-maintenance/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3607_Power_Grid_Maintenance) | - |
+
+
+<br><br>
+

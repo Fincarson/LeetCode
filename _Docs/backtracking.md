@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Backtracking
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sudoku_solved_by_bactracking.gif" width="850" alt="Backtracking">
+  </a>
+</p>
 
-*Backtracking explores choices step by step, undoing a choice when it cannot lead to a valid answer. It is common in permutations, combinations, subsets, grids, and constraint-search problems.*
+Backtracking explores choices step by step, undoing a choice when it cannot lead to a valid answer. It is common in permutations, combinations, subsets, grids, and constraint-search problems. <br>
+<br>
+This section collects LeetCode problems tagged with Backtracking. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -78,3 +90,7 @@
 | [2597. The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2501-2600/2597_The_Number_of_Beautiful_Subsets) | - |
 | [2664. The Knight's Tour](https://leetcode.com/problems/the-knights-tour/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2601-2700/2664_The_Knight_s_Tour) | - |
 | [2698. Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2601-2700/2698_Find_the_Punishment_Number_of_an_Integer) | - |
+
+
+<br><br>
+

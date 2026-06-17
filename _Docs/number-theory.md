@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Number Theory
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Ulam_Spiral.png" width="850" alt="Number Theory">
+  </a>
+</p>
 
-*Number theory studies integer properties such as divisibility, primes, gcd, lcm, modular arithmetic, and factorization. These observations often turn slow searches into direct calculations.*
+Number theory studies integer properties such as divisibility, primes, gcd, lcm, modular arithmetic, and factorization. These observations often turn slow searches into direct calculations. <br>
+<br>
+This section collects LeetCode problems tagged with Number Theory. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -24,3 +36,7 @@
 | [2818. Apply Operations to Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2801-2900/2818_Apply_Operations_to_Maximize_Score) | - |
 | [3461. Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3401-3500/3461_Check_If_Digits_Are_Equal_in_String_After_Operations_I) | - |
 | [3629. Minimum Jumps to Reach End via Prime Teleportation](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3629_Minimum_Jumps_to_Reach_End_via_Prime_Teleportation) | - |
+
+
+<br><br>
+

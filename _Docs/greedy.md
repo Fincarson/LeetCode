@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Greedy
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Greedy-search-path-example.gif" width="850" alt="Greedy">
+  </a>
+</p>
 
-*Greedy algorithms make the locally best choice at each step. They work when an exchange argument or invariant proves that local choices still lead to a global optimum.*
+Greedy algorithms make the locally best choice at each step. They work when an exchange argument or invariant proves that local choices still lead to a global optimum. <br>
+<br>
+This section collects LeetCode problems tagged with Greedy. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -200,3 +212,7 @@
 | [3635. Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3635_Earliest_Finish_Time_for_Land_and_Water_Rides_II) | - |
 | [3689. Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3689_Maximum_Total_Subarray_Value_I) | - |
 | [3691. Maximum Total Subarray Value II](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3691_Maximum_Total_Subarray_Value_II) | - |
+
+
+<br><br>
+

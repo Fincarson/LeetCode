@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Database
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/DVD_Rental_Query.png/960px-DVD_Rental_Query.png" width="850" alt="Database">
+  </a>
+</p>
 
-*Database problems ask you to query and transform relational data. They focus on SQL concepts like filtering, joins, grouping, aggregation, ranking, and window functions.*
+Database problems ask you to query and transform relational data. They focus on SQL concepts like filtering, joins, grouping, aggregation, ranking, and window functions. <br>
+<br>
+This section collects LeetCode problems tagged with Database. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -137,3 +149,7 @@
 | [3054. Binary Tree Nodes](https://leetcode.com/problems/binary-tree-nodes/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3001-3100/3054_Binary_Tree_Nodes) | - |
 | [3059. Find All Unique Email Domains](https://leetcode.com/problems/find-all-unique-email-domains/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3001-3100/3059_Find_All_Unique_Email_Domains) | - |
 | [3060. User Activities within Time Bounds](https://leetcode.com/problems/user-activities-within-time-bounds/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3001-3100/3060_User_Activities_within_Time_Bounds) | - |
+
+
+<br><br>
+

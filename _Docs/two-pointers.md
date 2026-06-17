@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Two Pointers
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Pointers.svg/960px-Pointers.svg.png" width="850" alt="Two Pointers">
+  </a>
+</p>
 
-*Two pointers move through one or more sequences to maintain a relationship between positions. This technique is common after sorting and in pair, partition, merge, or window-style problems.*
+Two pointers move through one or more sequences to maintain a relationship between positions. This technique is common after sorting and in pair, partition, merge, or window-style problems. <br>
+<br>
+This section collects LeetCode problems tagged with Two Pointers. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -155,3 +167,7 @@
 | [3633. Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3633_Earliest_Finish_Time_for_Land_and_Water_Rides_I) | - |
 | [3635. Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3635_Earliest_Finish_Time_for_Land_and_Water_Rides_II) | - |
 | [3643. Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3643_Flip_Square_Submatrix_Vertically) | - |
+
+
+<br><br>
+

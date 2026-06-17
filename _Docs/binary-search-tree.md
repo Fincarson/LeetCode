@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Binary Search Tree
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/960px-Binary_search_tree.svg.png" width="850" alt="Binary Search Tree">
+  </a>
+</p>
 
-*A Binary Search Tree keeps values ordered so left descendants are smaller and right descendants are larger. This structure supports ordered lookup, insertion, traversal, and range-style reasoning.*
+A Binary Search Tree keeps values ordered so left descendants are smaller and right descendants are larger. This structure supports ordered lookup, insertion, traversal, and range-style reasoning. <br>
+<br>
+This section collects LeetCode problems tagged with Binary Search Tree. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -43,3 +55,7 @@
 | [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1301-1400/1382_Balance_a_Binary_Search_Tree) | - |
 | [1569. Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1501-1600/1569_Number_of_Ways_to_Reorder_Array_to_Get_Same_BST) | - |
 | [1586. Binary Search Tree Iterator II](https://leetcode.com/problems/binary-search-tree-iterator-ii/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1501-1600/1586_Binary_Search_Tree_Iterator_II) | - |
+
+
+<br><br>
+

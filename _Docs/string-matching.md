@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # String Matching
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/DFA_search_mommy.svg" width="850" alt="String Matching">
+  </a>
+</p>
 
-*String matching searches for patterns inside text. Common techniques include prefix functions, KMP, rolling hash, tries, and suffix-based structures.*
+String matching searches for patterns inside text. Common techniques include prefix functions, KMP, rolling hash, tries, and suffix-based structures. <br>
+<br>
+This section collects LeetCode problems tagged with String Matching. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -18,3 +30,7 @@
 | [2185. Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2101-2200/2185_Counting_Words_With_a_Given_Prefix) | - |
 | [3042. Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3001-3100/3042_Count_Prefix_and_Suffix_Pairs_I) | - |
 | [3474. Lexicographically Smallest Generated String](https://leetcode.com/problems/lexicographically-smallest-generated-string/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3401-3500/3474_Lexicographically_Smallest_Generated_String) | - |
+
+
+<br><br>
+

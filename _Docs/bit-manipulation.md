@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Bit Manipulation
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/0...15_AND.svg" width="850" alt="Bit Manipulation">
+  </a>
+</p>
 
-*Bit manipulation uses binary representation directly through operations like AND, OR, XOR, shifts, and masks. It is useful for compact state, parity, subsets, and low-level numeric tricks.*
+Bit manipulation uses binary representation directly through operations like AND, OR, XOR, shifts, and masks. It is useful for compact state, parity, subsets, and low-level numeric tricks. <br>
+<br>
+This section collects LeetCode problems tagged with Bit Manipulation. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -121,3 +133,7 @@
 | [3495. Minimum Operations to Make Array Elements Zero](https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3401-3500/3495_Minimum_Operations_to_Make_Array_Elements_Zero) | - |
 | [3539. Find Sum of Array Product of Magical Sequences](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3539_Find_Sum_of_Array_Product_of_Magical_Sequences) | - |
 | [3559. Number of Ways to Assign Edge Weights II](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3559_Number_of_Ways_to_Assign_Edge_Weights_II) | - |
+
+
+<br><br>
+

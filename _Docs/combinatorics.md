@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Combinatorics
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Catalan_4_leaves_binary_tree_example.svg" width="850" alt="Combinatorics">
+  </a>
+</p>
 
-*Combinatorics counts arrangements, selections, and distributions without listing every possibility. These problems often need formulas, modular arithmetic, or careful case counting.*
+Combinatorics counts arrangements, selections, and distributions without listing every possibility. These problems often need formulas, modular arithmetic, or careful case counting. <br>
+<br>
+This section collects LeetCode problems tagged with Combinatorics. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -25,3 +37,7 @@
 | [3461. Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3401-3500/3461_Check_If_Digits_Are_Equal_in_String_After_Operations_I) | - |
 | [3539. Find Sum of Array Product of Magical Sequences](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3539_Find_Sum_of_Array_Product_of_Magical_Sequences) | - |
 | [3577. Count the Number of Computer Unlocking Permutations](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3577_Count_the_Number_of_Computer_Unlocking_Permutations) | - |
+
+
+<br><br>
+

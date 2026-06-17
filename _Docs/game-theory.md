@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Game Theory
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Prisoner%27s_Dilemma_conceptual_matrix.svg" width="850" alt="Game Theory">
+  </a>
+</p>
 
-*Game theory problems model competing choices between players. The key is usually identifying winning states, losing states, optimal play, or a mathematical invariant.*
+Game theory problems model competing choices between players. The key is usually identifying winning states, losing states, optimal play, or a mathematical invariant. <br>
+<br>
+This section collects LeetCode problems tagged with Game Theory. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -19,3 +31,7 @@
 | [1908. Game of Nim](https://leetcode.com/problems/game-of-nim/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1901-2000/1908_Game_of_Nim) | - |
 | [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2001-2100/2038_Remove_Colored_Pieces_if_Both_Neighbors_are_the_Same_Color) | - |
 | [3227. Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3201-3300/3227_Vowels_Game_in_a_String) | - |
+
+
+<br><br>
+

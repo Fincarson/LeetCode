@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Trie
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/960px-Trie_example.svg.png" width="850" alt="Trie">
+  </a>
+</p>
 
-*A trie stores strings by sharing common prefixes between paths. It is useful for prefix search, dictionaries, autocomplete, and word-based backtracking.*
+A trie stores strings by sharing common prefixes between paths. It is useful for prefix search, dictionaries, autocomplete, and word-based backtracking. <br>
+<br>
+This section collects LeetCode problems tagged with Trie. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -45,3 +57,7 @@
 | [3042. Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3001-3100/3042_Count_Prefix_and_Suffix_Pairs_I) | - |
 | [3043. Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3001-3100/3043_Find_the_Length_of_the_Longest_Common_Prefix) | - |
 | [3093. Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3001-3100/3093_Longest_Common_Suffix_Queries) | - |
+
+
+<br><br>
+

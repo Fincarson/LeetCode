@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Geometry
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/LloydsMethod15.svg" width="850" alt="Geometry">
+  </a>
+</p>
 
-*Geometry problems reason about points, lines, distances, areas, angles, and shapes. They often require careful formulas and attention to precision or edge cases.*
+Geometry problems reason about points, lines, distances, areas, angles, and shapes. They often require careful formulas and attention to precision or edge cases. <br>
+<br>
+This section collects LeetCode problems tagged with Geometry. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -23,3 +35,7 @@
 | [3464. Maximize the Distance Between Points on a Square](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3401-3500/3464_Maximize_the_Distance_Between_Points_on_a_Square) | - |
 | [3623. Count Number of Trapezoids I](https://leetcode.com/problems/count-number-of-trapezoids-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3623_Count_Number_of_Trapezoids_I) | - |
 | [3625. Count Number of Trapezoids II](https://leetcode.com/problems/count-number-of-trapezoids-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3625_Count_Number_of_Trapezoids_II) | - |
+
+
+<br><br>
+

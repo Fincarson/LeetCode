@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Monotonic Stack
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Linked-list-based_Stack_Pop_Operation-en.gif" width="850" alt="Monotonic Stack">
+  </a>
+</p>
 
-*A monotonic stack keeps values in sorted order as you scan. It is commonly used to find next greater or smaller elements, spans, boundaries, and contribution ranges.*
+A monotonic stack keeps values in sorted order as you scan. It is commonly used to find next greater or smaller elements, spans, boundaries, and contribution ranges. <br>
+<br>
+This section collects LeetCode problems tagged with Monotonic Stack. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -41,3 +53,7 @@
 | [2832. Maximal Range That Each Element Is Maximum in It](https://leetcode.com/problems/maximal-range-that-each-element-is-maximum-in-it/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2801-2900/2832_Maximal_Range_That_Each_Element_Is_Maximum_in_It) | - |
 | [2940. Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2901-3000/2940_Find_Building_Where_Alice_and_Bob_Can_Meet) | - |
 | [3542. Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3542_Minimum_Operations_to_Convert_All_Elements_to_Zero) | - |
+
+
+<br><br>
+

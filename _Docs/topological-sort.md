@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Topological Sort
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Directed_acyclic_graph_2.svg" width="850" alt="Topological Sort">
+  </a>
+</p>
 
-*Topological sort orders directed acyclic graph nodes so prerequisites come before dependents. It is common in scheduling, dependency resolution, and course-order problems.*
+Topological sort orders directed acyclic graph nodes so prerequisites come before dependents. It is common in scheduling, dependency resolution, and course-order problems. <br>
+<br>
+This section collects LeetCode problems tagged with Topological Sort. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -33,3 +45,7 @@
 | [2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2301-2400/2360_Longest_Cycle_in_a_Graph) | - |
 | [2371. Minimize Maximum Value in a Grid](https://leetcode.com/problems/minimize-maximum-value-in-a-grid/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2301-2400/2371_Minimize_Maximum_Value_in_a_Grid) | - |
 | [2392. Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2301-2400/2392_Build_a_Matrix_With_Conditions) | - |
+
+
+<br><br>
+

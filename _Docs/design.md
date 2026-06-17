@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Design
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Facade_Design_Pattern_Class_Diagram_UML.svg" width="850" alt="Design">
+  </a>
+</p>
 
-*Design problems ask you to build a data structure or API with specific operations. The main challenge is choosing internal state so every operation meets the required complexity.*
+Design problems ask you to build a data structure or API with specific operations. The main challenge is choosing internal state so every operation meets the required complexity. <br>
+<br>
+This section collects LeetCode problems tagged with Design. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -94,3 +106,7 @@
 | [3408. Design Task Manager](https://leetcode.com/problems/design-task-manager/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3401-3500/3408_Design_Task_Manager) | - |
 | [3484. Design Spreadsheet](https://leetcode.com/problems/design-spreadsheet/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3401-3500/3484_Design_Spreadsheet) | - |
 | [3508. Implement Router](https://leetcode.com/problems/implement-router/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3508_Implement_Router) | - |
+
+
+<br><br>
+

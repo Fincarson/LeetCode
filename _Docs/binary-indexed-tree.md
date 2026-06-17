@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Binary Indexed Tree
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/16-node_Fenwick_tree.svg/960px-16-node_Fenwick_tree.svg.png" width="850" alt="Binary Indexed Tree">
+  </a>
+</p>
 
-*A Binary Indexed Tree, also called a Fenwick Tree, supports fast prefix queries and point updates. It is useful when array values change and repeated range-sum style queries are needed.*
+A Binary Indexed Tree, also called a Fenwick Tree, supports fast prefix queries and point updates. It is useful when array values change and repeated range-sum style queries are needed. <br>
+<br>
+This section collects LeetCode problems tagged with Binary Indexed Tree. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -18,3 +30,7 @@
 | [2179. Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2101-2200/2179_Count_Good_Triplets_in_an_Array) | - |
 | [2940. Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2901-3000/2940_Find_Building_Where_Alice_and_Bob_Can_Meet) | - |
 | [3161. Block Placement Queries](https://leetcode.com/problems/block-placement-queries/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3101-3200/3161_Block_Placement_Queries) | - |
+
+
+<br><br>
+

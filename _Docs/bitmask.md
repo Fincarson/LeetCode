@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Bitmask
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Binary_guess_number_trick_SMIL.svg" width="850" alt="Bitmask">
+  </a>
+</p>
 
-*A bitmask stores a set or state inside the bits of an integer. It is common when the number of choices is small enough to represent inclusion, visited states, or DP states compactly.*
+A bitmask stores a set or state inside the bits of an integer. It is common when the number of choices is small enough to represent inclusion, visited states, or DP states compactly. <br>
+<br>
+This section collects LeetCode problems tagged with Bitmask. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -22,3 +34,7 @@
 | [2305. Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2301-2400/2305_Fair_Distribution_of_Cookies) | - |
 | [3003. Maximize the Number of Partitions After Operations](https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3001-3100/3003_Maximize_the_Number_of_Partitions_After_Operations) | - |
 | [3539. Find Sum of Array Product of Magical Sequences](https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3539_Find_Sum_of_Array_Product_of_Magical_Sequences) | - |
+
+
+<br><br>
+

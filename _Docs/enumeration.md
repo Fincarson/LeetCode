@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Enumeration
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/3-el_permutation_counting_decisions.svg" width="850" alt="Enumeration">
+  </a>
+</p>
 
-*Enumeration problems involve trying possible candidates in a controlled way. The skill is reducing the search space enough that direct checking becomes efficient.*
+Enumeration problems involve trying possible candidates in a controlled way. The skill is reducing the search space enough that direct checking becomes efficient. <br>
+<br>
+This section collects LeetCode problems tagged with Enumeration. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -45,3 +57,7 @@
 | [3548. Equal Sum Grid Partition II](https://leetcode.com/problems/equal-sum-grid-partition-ii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3548_Equal_Sum_Grid_Partition_II) | - |
 | [3713. Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3713_Longest_Balanced_Substring_I) | - |
 | [3751. Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3751_Total_Waviness_of_Numbers_in_Range_I) | - |
+
+
+<br><br>
+

@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Monotonic Queue
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/960px-Data_Queue.svg.png" width="850" alt="Monotonic Queue">
+  </a>
+</p>
 
-*A monotonic queue keeps elements in increasing or decreasing order while supporting window movement. It is useful for sliding-window maximums, minimums, and range optimization.*
+A monotonic queue keeps elements in increasing or decreasing order while supporting window movement. It is useful for sliding-window maximums, minimums, and range optimization. <br>
+<br>
+This section collects LeetCode problems tagged with Monotonic Queue. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -17,3 +29,7 @@
 | [2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2401-2500/2444_Count_Subarrays_With_Fixed_Bounds) | - |
 | [2762. Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2701-2800/2762_Continuous_Subarrays) | - |
 | [3578. Count Partitions With Max-Min Difference at Most K](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3578_Count_Partitions_With_Max_Min_Difference_at_Most_K) | - |
+
+
+<br><br>
+

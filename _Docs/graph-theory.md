@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Graph Theory
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/960px-6n-graf.svg.png" width="850" alt="Graph Theory">
+  </a>
+</p>
 
-*Graph theory models relationships as nodes connected by edges. These problems cover traversal, connectivity, shortest paths, cycles, components, and graph structure.*
+Graph theory models relationships as nodes connected by edges. These problems cover traversal, connectivity, shortest paths, cycles, components, and graph structure. <br>
+<br>
+This section collects LeetCode problems tagged with Graph Theory. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -110,3 +122,7 @@
 | [3600. Maximize Spanning Tree Stability with Upgrades](https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3600_Maximize_Spanning_Tree_Stability_with_Upgrades) | - |
 | [3607. Power Grid Maintenance](https://leetcode.com/problems/power-grid-maintenance/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3607_Power_Grid_Maintenance) | - |
 | [3650. Minimum Cost Path with Edge Reversals](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3650_Minimum_Cost_Path_with_Edge_Reversals) | - |
+
+
+<br><br>
+

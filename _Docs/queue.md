@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Queue
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/960px-Data_Queue.svg.png" width="850" alt="Queue">
+  </a>
+</p>
 
-*A queue processes items in first-in, first-out order. It is the natural structure for BFS, scheduling, buffering, and simulations where order of arrival matters.*
+A queue processes items in first-in, first-out order. It is the natural structure for BFS, scheduling, buffering, and simulations where order of arrival matters. <br>
+<br>
+This section collects LeetCode problems tagged with Queue. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -41,3 +53,7 @@
 | [3191. Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3101-3200/3191_Minimum_Operations_to_Make_Binary_Array_Elements_Equal_to_One_I) | - |
 | [3508. Implement Router](https://leetcode.com/problems/implement-router/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3508_Implement_Router) | - |
 | [3578. Count Partitions With Max-Min Difference at Most K](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3578_Count_Partitions_With_Max_Min_Difference_at_Most_K) | - |
+
+
+<br><br>
+

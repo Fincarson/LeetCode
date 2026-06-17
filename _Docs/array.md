@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Array
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/1D_array_diagram.svg" width="850" alt="Array">
+  </a>
+</p>
 
-*Arrays store ordered values at indexed positions, making them useful for direct access, scanning, partitioning, and in-place updates.*
+Arrays store ordered values at indexed positions, making them useful for direct access, scanning, partitioning, and in-place updates. <br>
+<br>
+This section collects LeetCode problems tagged with Array. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -1059,3 +1071,7 @@
 | [3742. Maximum Path Score in a Grid](https://leetcode.com/problems/maximum-path-score-in-a-grid/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3742_Maximum_Path_Score_in_a_Grid) | - |
 | [3761. Minimum Absolute Distance Between Mirror Pairs](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3701-3800/3761_Minimum_Absolute_Distance_Between_Mirror_Pairs) | - |
 | [3838. Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | <img src="../_Misc/Badges/Easy.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3801-3900/3838_Weighted_Word_Mapping) | - |
+
+
+<br><br>
+

@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Shortest Path
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Shortest_path_with_direct_weights.svg/960px-Shortest_path_with_direct_weights.svg.png" width="850" alt="Shortest Path">
+  </a>
+</p>
 
-*Shortest path problems ask for minimum-cost or minimum-step routes in graphs or grids. The right tool depends on edge weights, usually BFS, Dijkstra, Bellman-Ford, or Floyd-Warshall.*
+Shortest path problems ask for minimum-cost or minimum-step routes in graphs or grids. The right tool depends on edge weights, usually BFS, Dijkstra, Bellman-Ford, or Floyd-Warshall. <br>
+<br>
+This section collects LeetCode problems tagged with Shortest Path. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -29,3 +41,7 @@
 | [3341. Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3301-3400/3341_Find_Minimum_Time_to_Reach_Last_Room_I) | - |
 | [3342. Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3301-3400/3342_Find_Minimum_Time_to_Reach_Last_Room_II) | - |
 | [3650. Minimum Cost Path with Edge Reversals](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3650_Minimum_Cost_Path_with_Edge_Reversals) | - |
+
+
+<br><br>
+

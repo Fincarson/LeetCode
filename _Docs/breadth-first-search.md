@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Breadth-First Search
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Animated_BFS.gif" width="850" alt="Breadth-First Search">
+  </a>
+</p>
 
-*Breadth-First Search explores nodes level by level from a starting point. It is especially useful for shortest paths in unweighted graphs, grids, and state-space problems.*
+Breadth-First Search explores nodes level by level from a starting point. It is especially useful for shortest paths in unweighted graphs, grids, and state-space problems. <br>
+<br>
+This section collects LeetCode problems tagged with Breadth-First Search. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -193,3 +205,7 @@
 | [3607. Power Grid Maintenance](https://leetcode.com/problems/power-grid-maintenance/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3607_Power_Grid_Maintenance) | - |
 | [3629. Minimum Jumps to Reach End via Prime Teleportation](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3629_Minimum_Jumps_to_Reach_End_via_Prime_Teleportation) | - |
 | [3666. Minimum Operations to Equalize Binary String](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3666_Minimum_Operations_to_Equalize_Binary_String) | - |
+
+
+<br><br>
+

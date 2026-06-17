@@ -1,8 +1,20 @@
+<p align="left">
+  <a href="../README.md">← Back to README</a>
+</p>
+
 # Sliding Window
 
-[Back to README](../README.md)
+<p>
+  <a href="https://leetcode.com/problemset/">
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sliding_Window.svg" width="850" alt="Sliding Window">
+  </a>
+</p>
 
-*Sliding window maintains information about a moving contiguous range. It is useful for subarray or substring problems with constraints that can be updated incrementally.*
+Sliding window maintains information about a moving contiguous range. It is useful for subarray or substring problems with constraints that can be updated incrementally. <br>
+<br>
+This section collects LeetCode problems tagged with Sliding Window. Use it as a focused practice set: start with the easier rows to build the core pattern, then move into medium and hard problems to see how the idea combines with other techniques. <br>
+<br>
+### The Problem Sets:
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
@@ -98,3 +110,7 @@
 | [3578. Count Partitions With Max-Min Difference at Most K](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3501-3600/3578_Count_Partitions_With_Max_Min_Difference_at_Most_K) | - |
 | [3634. Minimum Removals to Balance Array](https://leetcode.com/problems/minimum-removals-to-balance-array/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3634_Minimum_Removals_to_Balance_Array) | - |
 | [3652. Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/3601-3700/3652_Best_Time_to_Buy_and_Sell_Stock_using_Strategy) | - |
+
+
+<br><br>
+
