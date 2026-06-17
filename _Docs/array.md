@@ -1,5 +1,5 @@
 <p align="left">
-  <a href="../README.md">← Back to README</a>
+  <a href="../">← Back to README</a>
 </p>
 
 # Array
