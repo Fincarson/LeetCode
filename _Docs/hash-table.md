@@ -1,5 +1,5 @@
 <p align="left">
-  <a href="../README.md">← Back to README</a>
+  <a href="https://github.com/Fincarson/LeetCode">← Back to README</a>
 </p>
 
 # Hash Table
