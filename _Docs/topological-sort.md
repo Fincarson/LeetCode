@@ -1,0 +1,35 @@
+# Topological Sort
+
+[Back to README](../README.md)
+
+*Topological sort orders directed acyclic graph nodes so prerequisites come before dependents. It is common in scheduling, dependency resolution, and course-order problems.*
+
+| Problems | Difficulty | Editorial | Solutions |
+|----------|:----------:|:---------:|:---------:|
+| [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/0201-0300/0207_Course_Schedule) | - |
+| [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/0201-0300/0210_Course_Schedule_II) | - |
+| [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/0201-0300/0269_Alien_Dictionary) | - |
+| [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/0301-0400/0310_Minimum_Height_Trees) | - |
+| [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/0301-0400/0329_Longest_Increasing_Path_in_a_Matrix) | - |
+| [631. Design Excel Sum Formula](https://leetcode.com/problems/design-excel-sum-formula/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/0601-0700/0631_Design_Excel_Sum_Formula) | - |
+| [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/0801-0900/0802_Find_Eventual_Safe_States) | - |
+| [851. Loud and Rich](https://leetcode.com/problems/loud-and-rich/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/0801-0900/0851_Loud_and_Rich) | - |
+| [913. Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/0901-1000/0913_Cat_and_Mouse) | - |
+| [1059. All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1001-1100/1059_All_Paths_from_Source_Lead_to_Destination) | - |
+| [1136. Parallel Courses](https://leetcode.com/problems/parallel-courses/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1101-1200/1136_Parallel_Courses) | - |
+| [1203. Sort Items by Groups Respecting Dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1201-1300/1203_Sort_Items_by_Groups_Respecting_Dependencies) | - |
+| [1245. Tree Diameter](https://leetcode.com/problems/tree-diameter/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1201-1300/1245_Tree_Diameter) | - |
+| [1462. Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1401-1500/1462_Course_Schedule_IV) | - |
+| [1632. Rank Transform of a Matrix](https://leetcode.com/problems/rank-transform-of-a-matrix/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1601-1700/1632_Rank_Transform_of_a_Matrix) | - |
+| [1857. Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1801-1900/1857_Largest_Color_Value_in_a_Directed_Graph) | - |
+| [1976. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1901-2000/1976_Number_of_Ways_to_Arrive_at_Destination) | - |
+| [2050. Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2001-2100/2050_Parallel_Courses_III) | - |
+| [2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2101-2200/2115_Find_All_Possible_Recipes_from_Given_Supplies) | - |
+| [2127. Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2101-2200/2127_Maximum_Employees_to_Be_Invited_to_a_Meeting) | - |
+| [2192. All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | <img src="../_Misc/Badges/Med.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2101-2200/2192_All_Ancestors_of_a_Node_in_a_Directed_Acyclic_Graph) | - |
+| [2204. Distance to a Cycle in Undirected Graph](https://leetcode.com/problems/distance-to-a-cycle-in-undirected-graph/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2201-2300/2204_Distance_to_a_Cycle_in_Undirected_Graph) | - |
+| [2246. Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2201-2300/2246_Longest_Path_With_Different_Adjacent_Characters) | - |
+| [2328. Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2301-2400/2328_Number_of_Increasing_Paths_in_a_Grid) | - |
+| [2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2301-2400/2360_Longest_Cycle_in_a_Graph) | - |
+| [2371. Minimize Maximum Value in a Grid](https://leetcode.com/problems/minimize-maximum-value-in-a-grid/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2301-2400/2371_Minimize_Maximum_Value_in_a_Grid) | - |
+| [2392. Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2301-2400/2392_Build_a_Matrix_With_Conditions) | - |
