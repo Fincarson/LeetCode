@@ -1,8 +1,8 @@
 # LeetCode
 
 <p>
-  <a href="https://www.minecraft.net/en-us/article/uncensored-library">
-    <img src="_Misc/Images/Library.jpg" width="850" alt="LeetCode website">
+  <a href="https://leetcode.com/">
+    <img src="_Misc/Images/LeetCode.png" width="850" alt="LeetCode website">
   </a>
 </p>
 
@@ -25,10 +25,11 @@ Hope this helps anyone who's grinding interviews and trying to level up!
 # Problem Sets
 
 <p>
-  <a href="https://leetcode.com/">
-    <img src="_Misc/Images/LeetCode.png" width="850" alt="LeetCode website">
+  <a href="https://www.minecraft.net/en-us/article/uncensored-library">
+    <img src="_Misc/Images/Library.jpg" width="850" alt="LeetCode website">
   </a>
 </p>
+
 
 Problems below are grouped by the official LeetCode topic tags. <br>
 <br>
