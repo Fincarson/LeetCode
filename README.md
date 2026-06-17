@@ -21,89 +21,10 @@ Hope this helps anyone who's grinding interviews and trying to level up!
 
 <br><br>
 
-# Topic-Based Collections
+# Collections
 
 Problems below are grouped by the official LeetCode topic tags found in each generated editorial. A problem can appear in multiple categories when LeetCode tags it with multiple concepts. <br>
 <br>
-
-### Category Overview
-<details open><summary><strong>Topic Catalog</strong></summary>
-
-| Category | Total | Easy | Medium | Hard |
-|----------|------:|-----:|-------:|-----:|
-| [Array](#topic-array) | 1053 | 234 | 602 | 217 |
-| [Backtracking](#topic-backtracking) | 72 | 3 | 50 | 19 |
-| [Biconnected Component](#topic-biconnected-component) | 1 | 0 | 0 | 1 |
-| [Binary Indexed Tree](#topic-binary-indexed-tree) | 12 | 0 | 4 | 8 |
-| [Binary Search](#topic-binary-search) | 172 | 28 | 99 | 45 |
-| [Binary Search Tree](#topic-binary-search-tree) | 37 | 10 | 25 | 2 |
-| [Binary Tree](#topic-binary-tree) | 144 | 35 | 100 | 9 |
-| [Bit Manipulation](#topic-bit-manipulation) | 115 | 29 | 60 | 26 |
-| [Bitmask](#topic-bitmask) | 16 | 0 | 6 | 10 |
-| [Brainteaser](#topic-brainteaser) | 10 | 1 | 8 | 1 |
-| [Breadth-First Search](#topic-breadth-first-search) | 187 | 20 | 122 | 45 |
-| [Bucket Sort](#topic-bucket-sort) | 6 | 0 | 5 | 1 |
-| [Combinatorics](#topic-combinatorics) | 19 | 2 | 7 | 10 |
-| [Concurrency](#topic-concurrency) | 1 | 1 | 0 | 0 |
-| [Counting](#topic-counting) | 84 | 29 | 47 | 8 |
-| [Counting Sort](#topic-counting-sort) | 8 | 4 | 4 | 0 |
-| [Data Stream](#topic-data-stream) | 15 | 5 | 6 | 4 |
-| [Database](#topic-database) | 131 | 69 | 43 | 19 |
-| [Depth-First Search](#topic-depth-first-search) | 233 | 37 | 155 | 41 |
-| [Design](#topic-design) | 88 | 12 | 57 | 19 |
-| [Divide and Conquer](#topic-divide-and-conquer) | 36 | 4 | 21 | 11 |
-| [Doubly-Linked List](#topic-doubly-linked-list) | 10 | 1 | 5 | 4 |
-| [Dynamic Programming](#topic-dynamic-programming) | 291 | 10 | 157 | 124 |
-| [Enumeration](#topic-enumeration) | 39 | 7 | 20 | 12 |
-| [Eulerian Circuit](#topic-eulerian-circuit) | 1 | 0 | 0 | 1 |
-| [Game Theory](#topic-game-theory) | 13 | 1 | 8 | 4 |
-| [Geometry](#topic-geometry) | 17 | 4 | 8 | 5 |
-| [Graph Theory](#topic-graph-theory) | 104 | 3 | 57 | 44 |
-| [Greedy](#topic-greedy) | 194 | 24 | 134 | 36 |
-| [Hash Function](#topic-hash-function) | 15 | 4 | 7 | 4 |
-| [Hash Table](#topic-hash-table) | 398 | 100 | 243 | 55 |
-| [Heap (Priority Queue)](#topic-heap-priority-queue) | 120 | 11 | 68 | 41 |
-| [Interactive](#topic-interactive) | 13 | 3 | 7 | 3 |
-| [Iterator](#topic-iterator) | 8 | 1 | 7 | 0 |
-| [Linked List](#topic-linked-list) | 70 | 15 | 49 | 6 |
-| [Math](#topic-math) | 278 | 80 | 138 | 60 |
-| [Matrix](#topic-matrix) | 170 | 23 | 102 | 45 |
-| [Memoization](#topic-memoization) | 22 | 3 | 5 | 14 |
-| [Merge Sort](#topic-merge-sort) | 6 | 0 | 2 | 4 |
-| [Minimum Spanning Tree](#topic-minimum-spanning-tree) | 5 | 0 | 2 | 3 |
-| [Monotonic Queue](#topic-monotonic-queue) | 11 | 0 | 5 | 6 |
-| [Monotonic Stack](#topic-monotonic-stack) | 35 | 2 | 23 | 10 |
-| [Number Theory](#topic-number-theory) | 18 | 3 | 8 | 7 |
-| [Ordered Set](#topic-ordered-set) | 37 | 2 | 14 | 21 |
-| [Prefix Sum](#topic-prefix-sum) | 116 | 12 | 77 | 27 |
-| [Probability and Statistics](#topic-probability-and-statistics) | 3 | 0 | 3 | 0 |
-| [Queue](#topic-queue) | 35 | 7 | 19 | 9 |
-| [Quickselect](#topic-quickselect) | 3 | 0 | 3 | 0 |
-| [Radix Sort](#topic-radix-sort) | 2 | 0 | 2 | 0 |
-| [Randomized](#topic-randomized) | 7 | 0 | 6 | 1 |
-| [Recursion](#topic-recursion) | 40 | 10 | 19 | 11 |
-| [Rejection Sampling](#topic-rejection-sampling) | 2 | 0 | 2 | 0 |
-| [Reservoir Sampling](#topic-reservoir-sampling) | 1 | 0 | 1 | 0 |
-| [Rolling Hash](#topic-rolling-hash) | 8 | 1 | 5 | 2 |
-| [Segment Tree](#topic-segment-tree) | 25 | 1 | 8 | 16 |
-| [Shortest Path](#topic-shortest-path) | 23 | 0 | 14 | 9 |
-| [Simulation](#topic-simulation) | 106 | 42 | 58 | 6 |
-| [Sliding Window](#topic-sliding-window) | 92 | 8 | 62 | 22 |
-| [Sort](#topic-sort) | 1 | 0 | 0 | 1 |
-| [Sorting](#topic-sorting) | 266 | 59 | 156 | 51 |
-| [Stack](#topic-stack) | 111 | 22 | 67 | 22 |
-| [String](#topic-string) | 435 | 123 | 227 | 85 |
-| [String Matching](#topic-string-matching) | 12 | 8 | 2 | 2 |
-| [Strongly Connected Component](#topic-strongly-connected-component) | 2 | 0 | 0 | 2 |
-| [Suffix Array](#topic-suffix-array) | 2 | 0 | 1 | 1 |
-| [Sweep Line](#topic-sweep-line) | 4 | 0 | 1 | 3 |
-| [Topological Sort](#topic-topological-sort) | 27 | 0 | 12 | 15 |
-| [Tree](#topic-tree) | 176 | 38 | 118 | 20 |
-| [Trie](#topic-trie) | 39 | 3 | 20 | 16 |
-| [Two Pointers](#topic-two-pointers) | 149 | 47 | 93 | 9 |
-| [Union-Find](#topic-union-find) | 70 | 1 | 43 | 26 |
-</details>
-<br> <br>
 
 ### Problem Sets
 
