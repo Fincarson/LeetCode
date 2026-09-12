@@ -17,7 +17,7 @@ This section collects LeetCode problems tagged with Sort. Use it as a focused pr
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
-| [2561. Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2501-2600/2561_Rearranging_Fruits) | - |
+| [2561. Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [`Editorial`](../Editorial/2501-2600/2561_Rearranging_Fruits) | - |
 
 
 <br><br>

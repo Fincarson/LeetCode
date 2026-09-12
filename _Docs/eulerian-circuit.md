@@ -18,7 +18,7 @@ This section collects LeetCode problems tagged with Eulerian Circuit. Use it as 
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
-| [2097. Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/2001-2100/2097_Valid_Arrangement_of_Pairs) | - |
+| [2097. Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [`Editorial`](../Editorial/2001-2100/2097_Valid_Arrangement_of_Pairs) | - |
 
 
 <br><br>

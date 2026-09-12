@@ -18,7 +18,7 @@ This section collects LeetCode problems tagged with Biconnected Component. Use i
 
 | Problems | Difficulty | Editorial | Solutions |
 |----------|:----------:|:---------:|:---------:|
-| [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [Editorial](../Editorial/1101-1200/1192_Critical_Connections_in_a_Network) | - |
+| [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | <img src="../_Misc/Badges/Hard.svg" height="20" align="absmiddle"> | [`Editorial`](../Editorial/1101-1200/1192_Critical_Connections_in_a_Network) | - |
 
 
 <br><br>
